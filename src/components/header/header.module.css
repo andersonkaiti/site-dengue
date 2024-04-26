@@ -1,0 +1,155 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3em;
+    height: 85px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 74px;
+    font-size: 2em;
+    text-align: left;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.link {
+    color: var(--grey);
+    font-weight: 600;
+    line-height: 36px;
+    position: relative;
+    outline: none;
+}
+
+.activeLink::after {
+    content: "";
+    width: 80%;
+    height: 5px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--blue2);
+    border-radius: 40px;
+}
+
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* menu hamburger */
+
+.hamburger {
+    margin-top: 2em;
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    left: 0;
+    transform: rotate(0);
+    transition: .25s ease-in-out;
+}
+
+.hamburger span:nth-child(1) {
+    top: 0;
+}
+
+.hamburger span:nth-child(2),
+.hamburger span:nth-child(3) {
+    top: 8px;
+}
+
+.hamburger span:nth-child(4) {
+    top: 16px;
+}
+
+.hamburger.open span:nth-child(1),
+.hamburger.open span:nth-child(4) {
+    top: 8px;
+    width: 0;
+    left: 50%;
+}
+
+.hamburger.open span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+/* menu visibility */
+
+#notHidden {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .headerButton {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .header {
+        justify-content: flex-start;
+    }
+
+    .header nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    #notHidden {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        padding: 3em;
+        background-color: var(--blue2);
+    }
+
+    #notHidden ~ .hamburger span {
+        background-color: #fff;
+    }
+    
+    .link {
+        color: #fff;
+    }
+
+    .activeLink::after {
+        background-color: #fff;
+    }
+}
