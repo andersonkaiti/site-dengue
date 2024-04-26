@@ -3,14 +3,19 @@
 import styles from "./header.module.css";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../button/button";
 import NavLink from "../nav-link/nav-link";
 import MenuHamburguer from "../menu-hamburger/menu-hamburger";
+import { handleResize } from "./header-resize";
 
 export default function Header() {
     const path = usePathname();
     const [sidebar, setSidebar] = useState<boolean>(false);
+
+    useEffect(() => {
+        window.addEventListener("resize", () => handleResize({ setSidebar }));
+    }, []);
 
     return (
         <header className={styles.header}>
