@@ -11,10 +11,17 @@ import { handleResize } from "./header-resize";
 
 export default function Header() {
     const path = usePathname();
+    const [animation, setAnimation] = useState<boolean>(false);
     const [sidebar, setSidebar] = useState<boolean>(false);
 
     useEffect(() => {
-        window.addEventListener("resize", () => handleResize({ setSidebar }));
+        const props = {
+            setSidebar,
+            setAnimation
+        }
+
+        handleResize(props);
+        window.addEventListener("resize", () => handleResize(props));
     }, []);
 
     return (
@@ -31,6 +38,7 @@ export default function Header() {
             <NavLink
                 path={path}
                 sidebar={sidebar}
+                animation={animation}
             />
             <div className={styles.headerButton}>
                 <Button
@@ -40,6 +48,7 @@ export default function Header() {
             <MenuHamburguer
                 sidebar={sidebar}
                 setSidebar={setSidebar}
+                setAnimation={setAnimation}
             />
         </header>
     );

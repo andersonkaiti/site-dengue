@@ -5,14 +5,20 @@ import { type LinkType, navLinks } from "./nav-links";
 type NavLinkProps = {
     path: string;
     sidebar: boolean;
+    animation: boolean;
 }
 
 export default function NavLink({
     path,
-    sidebar
+    sidebar,
+    animation
 }: NavLinkProps) {
     return (
-        <nav id={sidebar ? styles.notHidden : ""}>
+        <nav className={
+            animation ? (
+                sidebar ? styles.notHidden : styles.hidden
+            ) : ""
+        }>
             {
                 navLinks.map((link: LinkType, index: number) => {
                     const isActive = path === link.href;
