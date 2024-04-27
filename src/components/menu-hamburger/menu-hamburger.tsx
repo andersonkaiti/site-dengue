@@ -3,11 +3,13 @@ import styles from "../header/header.module.css";
 type MenuHamburgerProps = {
     sidebar: boolean;
     setSidebar: (value: boolean) => void;
+    setAnimation: (value: boolean) => void;
 }
 
 export default function MenuHamburguer({
     sidebar,
-    setSidebar
+    setSidebar,
+    setAnimation
 }: MenuHamburgerProps) {
     return (
         <div
@@ -16,6 +18,7 @@ export default function MenuHamburguer({
             `}
             onClick={() => {
                 setSidebar(!sidebar);
+                setAnimation(true);
             }}
         >
             <span></span>
