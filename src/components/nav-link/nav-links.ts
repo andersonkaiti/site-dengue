@@ -20,4 +20,8 @@ export const navLinks = [
         href: "/postos-de-saude",
         page: "Postos de Saúde"
     },
+    {
+        href: "/noticias",
+        page: "noticias"
+    },
 ];
