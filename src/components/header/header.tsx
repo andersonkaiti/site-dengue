@@ -4,7 +4,7 @@ import styles from "./header.module.css";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import Button from "../button/button";
+
 import NavLink from "../nav-link/nav-link";
 import MenuHamburguer from "../menu-hamburger/menu-hamburger";
 import { handleResize } from "./header-resize";
@@ -41,9 +41,7 @@ export default function Header() {
                 animation={animation}
             />
             <div className={styles.headerButton}>
-                <Button
-                    content="Notícias"
-                />
+                
             </div>
             <MenuHamburguer
                 sidebar={sidebar}
