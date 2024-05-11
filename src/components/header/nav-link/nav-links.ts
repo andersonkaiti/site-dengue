@@ -22,6 +22,6 @@ export const navLinks = [
     },
     {
         href: "/noticias",
-        page: "noticias"
+        page: "Notícias"
     },
 ];

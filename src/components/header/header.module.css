@@ -5,6 +5,7 @@
     height: 85px;
     position: sticky;
     top: 0;
+    background-color: #fff;
 }
 
 .logo {
@@ -111,13 +112,7 @@
     }
 }
 
-@media screen and (max-width: 780px) {
-    .headerButton {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 715px) {
     .header {
         justify-content: flex-start;
     }
