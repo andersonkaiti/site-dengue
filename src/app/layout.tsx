@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Dengue",
   description: "Site informativo sobre a Dengue",
   icons: {
-    icon: "/mosquito.svg"
+    icon: "/favicon.png"
   }
 };
 

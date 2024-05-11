@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+    padding: 2em 7em;
+    background-color: #F5F5F5;
+}
+
+.footer > p {
+    text-align: center;
+}
+
+.footerInfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 1em;
+    margin-bottom: 2em;
+    gap: 2em;
+}
+
+.footerInfo div:nth-child(2) {
+    margin-top: auto;
+}
+
+.footerInfo h2 {
+    font-size: 1.4em;
+}
+
+.footerInfo p {
+    color: #00000080;
+    display: flex;
+    gap: .5em;
+}
+
+.footerSocialMedia p {
+    display: flex;
+}
+
+@media screen and (max-width: 510px) {
+    .footer {
+        padding: 2em 3em;
+    }
+}

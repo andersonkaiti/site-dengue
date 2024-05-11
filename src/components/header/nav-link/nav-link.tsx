@@ -1,5 +1,5 @@
-import styles from "../header/header.module.css";
 import Link from "next/link";
+import styles from "../header.module.css";
 import { type LinkType, navLinks } from "./nav-links";
 
 type NavLinkProps = {
