@@ -30,7 +30,7 @@ export default function Footer() {
                             src="/material-symbols_chat-bubble-outline-rounded.png"
                             width="20"
                             height="20"
-                            alt="Instagram"
+                            alt="Message"
                         />
                         Fale conosco
                     </p>
@@ -39,14 +39,14 @@ export default function Footer() {
                             src="/ic_outline-email.png"
                             width="20"
                             height="20"
-                            alt="Instagram"
+                            alt="Email"
                         />
                         Email
                         <Image
                             src="/ph_arrow-square-out-bold.png"
                             width="20"
                             height="20"
-                            alt="Instagram"
+                            alt="Send"
                         />
                     </p>
                     <p>
@@ -54,12 +54,12 @@ export default function Footer() {
                             src="/ic_baseline-local-phone.png"
                             width="20"
                             height="20"
-                            alt="Instagram"
+                            alt="Phone"
                         />
                         Telefone
                     </p>
                 </div>
-                <div className={styles.footerSocialMedia}>
+                <div>
                     <h2>Redes Sociais</h2>
                     <p>
                         <Image
@@ -72,13 +72,13 @@ export default function Footer() {
                             src="/mdi_twitter.png"
                             width="50"
                             height="50"
-                            alt="Instagram"
+                            alt="Twiiter"
                         />
                         <Image
                             src="/ic_baseline-facebook.png"
                             width="50"
                             height="50"
-                            alt="Instagram"
+                            alt="Facebook"
                         />
                     </p>
                 </div>
