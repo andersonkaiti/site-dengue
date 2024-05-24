@@ -10,4 +10,4 @@ export default function Button({ content }: ButtonType) {
             {content}
         </button>
     );
-}   
+}    
