@@ -1,0 +1,39 @@
+.imagens{
+    display: flex;
+    align-items: center;
+    padding: 0 6.5em;
+}
+
+.ImagensIndividuais{
+    border-radius: 10%;
+    margin: 20px;
+    align-content: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.listaPostos{
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    padding: 0 3em;
+    background-image: linear-gradient(to bottom, #4C6DE5, #243FC8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.postosLinhaFrente{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 6.5em;
+    margin-left: 6.5em;
+    display: flex;
+    background-color: gainsboro;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
