@@ -119,7 +119,7 @@ export default function Noticia () {
                     </div>
 
                     <div className={styles.text}>
-                    Recentes avanços na pesquisa sobre a dengue incluem o desenvolvimento de uma vacina mais eficaz e segura, com a Qdenga (TAK-003), da Takeda, mostrando resultados promissores em testes clínicos. Além disso, a implementação de mosquitos Aedes aegypti geneticamente modificados e infectados com a bactéria Wolbachia tem demonstrado sucesso em reduzir significativamente a transmissão do vírus. Pesquisas também estão explorando novos métodos de diagnóstico rápido e preciso, utilizando tecnologias como CRISPR para identificar a presença do vírus em estágios iniciais. Esses avanços prometem melhorar significativamente o controle e a prevenção da dengue em áreas endêmicas.
+                    Recentes avanços na pesquisa sobre a dengue incluem o desenvolvimento de uma vacina mais eficaz e segura, com a Qdenga (TAK-003), da Takeda, mostrando resultados promissores em testes clínicos. Além disso, a implementação de mosquitos Aedes aegypti geneticamente modificados e infectados com a bactéria Wolbachia tem demonstrado sucesso em reduzir significativamente a transmissão do vírus. Pesquisas também estão explorando novos métodos de diagnóstico rápido e preciso, utilizando tecnologias como CRISPR para identificar a presença do vírus em estágios iniciais. Esses avanços prometem melhorar significativamente o controle e a prevenção da dengue em áreas endêmicas..
                     </div>
                     
 
