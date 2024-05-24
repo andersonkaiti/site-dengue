@@ -1,23 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-.textodestaque {
+.textoDestaque {
     background: -webkit-linear-gradient(#4C6DE5, #243FC8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 72px;
+    font-size: 60px;
     position: absolute;
-    left: 1125px;
+    right: 50px;
     top: 80px;
+    z-index: -1;
 }
 
 .principal {
-    scale: 100%;
-    width: 1624px;
-    height: 568px;
+    display: flex;
+    gap: 1em;
+}
+
+.imagem {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ataques,
+.evolucao {
+    margin-top: 5em;
 }
 
 .ataques > h1 {
@@ -28,7 +37,6 @@
     line-height: 57px;
     text-align: left;
     text-align: center;
-    padding-top: 150px;
     padding-bottom: 70px;
 }
 
@@ -39,44 +47,40 @@
     font-weight: 400;
     line-height: 31.5px;
     text-align: left;
-    width: 1630px;
+    text-align: justify;
 }
 
 .evolucao {
+    width: 100%;
+    height: 100%;
     display: flex;
-    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
 }
 
-.evolucao > .fotoalcool {
-    margin-top: 170px;
-    margin-left: 50px;
-    margin-bottom: 30px;
-}
-
-.fotoalcool {
-    width: 760px;
-    height: 505px;
-    justify-content: center;
-}
-
-.textoevolucao > h1 {
+.textoEvolucao > h1 {
     color: #0940CC;
-    font-family: Poppins;
     font-size: 38px;
     font-weight: 600;
-    line-height: 57px;
-    text-align: left;
     text-align: center;
-    padding-top: 150px;
     padding-bottom: 70px;
 }
 
-.textoevolucao > p {
+.textoEvolucao > p {
     color: #412D6F;
-    font-family: Poppins;
     font-size: 21px;
     font-weight: 400;
     line-height: 31.5px;
     text-align: left;
-    width: 775px;
+}
+
+.textoEvolucao,
+.fotoAlcool {
+    width: calc(50% - 2em);
+}
+
+.fotoAlcool {
+    position: relative;
+    height: 505px;
 }
