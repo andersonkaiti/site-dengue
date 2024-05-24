@@ -35,7 +35,7 @@ export default function Noticia () {
                     </p>
 
                     <div className={styles.title}>
-                        <p>"Alerta Dengue: Mantenha-se Informado, <span> Proteja-se e Faça a Diferença!</span>"</p>
+                        <p>&quot;Alerta Dengue: Mantenha-se Informado, <span> Proteja-se e Faça a Diferença!</span>&quot;</p>
                     </div>
 
                     <div className={styles.FotosTopo2}>
@@ -110,7 +110,7 @@ export default function Noticia () {
                     </div>
 
                     <div className={styles.text}>
-                    Diversas campanhas de conscientização têm sido realizadas para combater a dengue, como a campanha “10 Minutos Contra a Dengue” do Ministério da Saúde do Brasil, que incentiva a população a dedicar 10 minutos por semana para eliminar focos do mosquito em suas casas, e a campanha "Todos Contra o Mosquito", que utiliza mídias sociais, televisão e rádio para educar sobre a prevenção de dengue, zika e chikungunya. A "Semana Nacional de Mobilização contra o Aedes aegypti" envolve ações em escolas e comunidades para conscientizar sobre os cuidados necessários, enquanto a campanha "Dengue: Aqui Mosquito Não se Cria", da Fiocruz, distribui materiais educativos e realiza palestras e oficinas. A campanha "Xô Dengue", promovida por prefeituras como a de São Paulo, inclui a distribuição de folhetos, visitas domiciliares por agentes de saúde e o uso de carros de som para alertar sobre a importância de eliminar criadouros. Essas iniciativas são essenciais para engajar a comunidade e promover práticas simples de prevenção da dengue.
+                    Diversas campanhas de conscientização têm sido realizadas para combater a dengue, como a campanha “10 Minutos Contra a Dengue” do Ministério da Saúde do Brasil, que incentiva a população a dedicar 10 minutos por semana para eliminar focos do mosquito em suas casas, e a campanha &quot;Todos Contra o Mosquito&quot;, que utiliza mídias sociais, televisão e rádio para educar sobre a prevenção de dengue, zika e chikungunya. A &quot;Semana Nacional de Mobilização contra o Aedes aegypti&quot; envolve ações em escolas e comunidades para conscientizar sobre os cuidados necessários, enquanto a campanha &quot;Dengue: Aqui Mosquito Não se Cria&quot;, da Fiocruz, distribui materiais educativos e realiza palestras e oficinas. A campanha &quot;Xô Dengue&quot;, promovida por prefeituras como a de São Paulo, inclui a distribuição de folhetos, visitas domiciliares por agentes de saúde e o uso de carros de som para alertar sobre a importância de eliminar criadouros. Essas iniciativas são essenciais para engajar a comunidade e promover práticas simples de prevenção da dengue.
                     </div>
                     
 
