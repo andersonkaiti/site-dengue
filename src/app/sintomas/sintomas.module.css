@@ -59,13 +59,13 @@
     gap: 2em;
 }
 
-.textoEvolucao > h1 {
+/* .textoEvolucao > h1 {
     color: #0940CC;
     font-size: 38px;
     font-weight: 600;
     text-align: center;
     padding-bottom: 70px;
-}
+} */
 
 .textoEvolucao > p {
     color: #412D6F;

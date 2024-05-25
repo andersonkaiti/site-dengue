@@ -32,3 +32,33 @@
 .title-two {
   font-size: 2em;
 }
+
+main {
+  @apply flex min-h-screen flex-col items-center justify-between py-24 mx-16;
+}
+
+footer {
+  @apply py-12 px-32;
+  width: 100%;
+  padding: 2em 7em;
+  background-color: #F5F5F5;
+}
+
+footer > p {
+  text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+  main {
+    @apply flex min-h-screen flex-col items-center justify-between py-12 mx-8;
+  }
+
+  .title-one,
+  .title-two {
+    font-size: 1.5em;
+  }
+
+  footer {
+    @apply py-6 px-6;
+  }
+}

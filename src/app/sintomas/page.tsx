@@ -6,7 +6,7 @@ import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 export default function Sintomas() {
     return (
         <>
-            <main className="flex min-h-screen flex-col items-center justify-between py-24 mx-16">
+            <main>
                 <div className="inicio">
                     <div className={styles.principal}>
                         <div className={styles.imagem}>
