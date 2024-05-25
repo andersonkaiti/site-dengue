@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/footer";
 import styles from "./postos.module.css";
 import Image from "next/image";
+import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 
 const imageBorder = { borderRadius: '10px' };
 
@@ -63,6 +64,7 @@ export default function PostosDeSaude() {
                 <h1>Postos de Saúde próximos</h1>
             </div>
             <Footer/>
+            <ScrollToTopButton/>
         </main>
     );
 }
