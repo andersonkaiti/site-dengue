@@ -27,7 +27,7 @@ export default function Footer() {
                     <h2>Contato?</h2>
                     <p>
                         <Image
-                            src="/material-symbols_chat-bubble-outline-rounded.png"
+                            src="/icons/material-symbols_chat-bubble-outline-rounded.png"
                             width="20"
                             height="20"
                             alt="Message"
@@ -36,14 +36,14 @@ export default function Footer() {
                     </p>
                     <p>
                         <Image
-                            src="/ic_outline-email.png"
+                            src="/icons/ic_outline-email.png"
                             width="20"
                             height="20"
                             alt="Email"
                         />
                         Email
                         <Image
-                            src="/ph_arrow-square-out-bold.png"
+                            src="/icons/ph_arrow-square-out-bold.png"
                             width="20"
                             height="20"
                             alt="Send"
@@ -51,7 +51,7 @@ export default function Footer() {
                     </p>
                     <p>
                         <Image
-                            src="/ic_baseline-local-phone.png"
+                            src="/icons/ic_baseline-local-phone.png"
                             width="20"
                             height="20"
                             alt="Phone"
@@ -63,19 +63,19 @@ export default function Footer() {
                     <h2>Redes Sociais</h2>
                     <p>
                         <Image
-                            src="/mdi_instagram.png"
+                            src="/icons/mdi_instagram.png"
                             width="50"
                             height="50"
                             alt="Instagram"
                         />
                         <Image
-                            src="/mdi_twitter.png"
+                            src="/icons/mdi_twitter.png"
                             width="50"
                             height="50"
                             alt="Twiiter"
                         />
                         <Image
-                            src="/ic_baseline-facebook.png"
+                            src="/icons/ic_baseline-facebook.png"
                             width="50"
                             height="50"
                             alt="Facebook"
