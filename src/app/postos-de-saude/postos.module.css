@@ -29,10 +29,9 @@
 .postosLinhaFrente{
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-right: 6.5em;
-    margin-left: 6.5em;
     display: flex;
     background-color: gainsboro;
+    width: 100%;
     height: 400px;
     justify-content: center;
     align-items: center;

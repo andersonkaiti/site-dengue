@@ -6,7 +6,7 @@ import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 export default function Noticias() {
     return (
         <>
-            <main className="flex min-h-screen flex-col items-center justify-between py-24 mx-16">
+            <main>
                 <div className={styles.main}>
                     <section className={styles.section}>
                         <div className={styles.gallery}>
