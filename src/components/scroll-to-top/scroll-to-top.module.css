@@ -1,0 +1,8 @@
+.scrollToTopButton {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    background: linear-gradient(to bottom, var(--blue1), var(--blue2));
+    padding: 1em .5em;
+    border-radius: 50px;
+}

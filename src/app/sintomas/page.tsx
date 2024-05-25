@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/footer";
 import Image from "next/image";
 import styles from "./sintomas.module.css"
+import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 
 export default function Sintomas() {
     return (
@@ -58,14 +59,14 @@ export default function Sintomas() {
                     </div>
                 </div>
                 <div className={styles.ataques}>
-                    <h1>Como a Dengue ataca o corpo?</h1>
+                    <h1 className="title-two">Como a Dengue ataca o corpo?</h1>
                     <p>
                         A Organização Mundial da Saúde (OMS) considera a dengue como a doença mais prevalente transmitida por mosquitos. A dengue hemorrágica é uma forma grave da doença, cujas infecções aumentaram mais de 10 vezes globalmente nos últimos 50 anos. O sistema imunológico desenvolve imunidade específica para cada tipo de dengue, permitindo múltiplas infecções, podendo uma pessoa contrair a doença até quatro vezes. Infecções subsequentes tendem a ser mais severas. A transmissão ocorre quando um mosquito pica uma pessoa infectada, permitindo que o vírus se multiplique em seu corpo por cerca de 12 dias antes de ser transmitido a outra pessoa saudável através da picada do mosquito.
                     </p>
                 </div>
                 <div className={styles.evolucao}>
                     <div className={styles.textoEvolucao}>
-                        <h1>Evolução da dengue</h1>
+                        <h1 className="title-two">Evolução da dengue</h1>
                         <p>
                             O curso da dengue é imprevisível e piora rapidamente. Os sintomas da dengue começam com uma febre alta que dura de 4 a 7 dias. O paciente sentirá fortes dores de cabeça, dores nas articulações, náuseas, fadiga, perda de apetite. Estes são os sintomas da dengue leve.
                         </p>
@@ -88,6 +89,7 @@ export default function Sintomas() {
                 </div>
             </main>
             <Footer/>
+            <ScrollToTopButton/>
         </>
     );
 }
