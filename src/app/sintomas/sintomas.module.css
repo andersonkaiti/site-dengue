@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 .textoDestaque {
     background: -webkit-linear-gradient(#4C6DE5, #243FC8);
     -webkit-background-clip: text;
@@ -42,8 +40,7 @@
 
 .ataques > p {
     color: #412D6F;
-    font-family: Poppins;
-    font-size: 21px;
+    /* font-size: 21px; */
     font-weight: 400;
     line-height: 31.5px;
     text-align: left;
@@ -57,6 +54,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 /* .textoEvolucao > h1 {
@@ -69,7 +67,7 @@
 
 .textoEvolucao > p {
     color: #412D6F;
-    font-size: 21px;
+    /* font-size: 21px; */
     font-weight: 400;
     line-height: 31.5px;
     text-align: left;
@@ -83,4 +81,11 @@
 .fotoAlcool {
     position: relative;
     height: 505px;
+}
+
+@media screen and (max-width: 820px) {
+    .textoEvolucao,
+    .fotoAlcool {
+        width: 100%
+    }
 }

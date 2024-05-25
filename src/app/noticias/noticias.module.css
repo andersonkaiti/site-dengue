@@ -1,23 +1,15 @@
-.main {
-    text-align: center;
+.gallery {
+    display: flex;
+    height: 400px;
+    gap: 1em;
 }
 
-.main > p {
-    text-align: center;
-    margin: 4px;
-    display: inline-block;
-    padding: 2px;
-}
-
-.gallery > p {
-    text-align: center;
-    display: inline-block;
-    margin-top: 60px;
-    margin: 0 1em;
+.galleryImage {
+    width: 50%;
     position: relative;
 }
 
-main .section:nth-child(1) .gallery > p:nth-child(2) {
+.section:nth-child(1) > .gallery > .galleryImage:nth-child(2) {
     top: -2em;
 }
 
@@ -26,5 +18,29 @@ main .section:nth-child(1) .gallery > p:nth-child(2) {
 }
 
 .section {
-    margin-bottom: 5em;
+    margin-top: 5em;
+    width: 100%;
+}
+
+.section:nth-child(1) {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 520px) {
+    .gallery {
+        height: 200px;
+    }
+    
+    .galleryImage:nth-child(1) {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .galleryImage {
+        display: none;
+    }
+
+    .section {
+        margin-top: 2em;
+    }
 }
