@@ -3,61 +3,51 @@ import Image from "next/image";
 import styles from "./sintomas.module.css"
 import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 
+const ImageAttr = {
+    fill: true,
+    objectFit: "cover",
+    style: {
+        borderRadius: "10px"
+    }
+}
+
 export default function Sintomas() {
     return (
         <>
             <main>
-                <div className="inicio">
-                    <div className={styles.principal}>
-                        <div className={styles.imagem}>
-                            <Image
-                                src="/images/1.jpg"
-                                alt="Fotos de pessoas"
-                                width={440}
-                                height={568}
-                                style={{
-                                    borderRadius: "10px"
-                                }}
-                            />
-                        </div>
-                        <div className={styles.imagem}>
-                            <Image
-                                src="/images/9.jpg"
-                                alt="Fotos de pessoas"
-                                width={440}
-                                height={568}
-                                style={{
-                                    borderRadius: "10px"
-                                }}
-                            />
-                        </div>
-                        <div className={styles.imagem}>
-                            <Image
-                                src="/images/6.png"
-                                alt="Fotos de pessoas"
-                                width={440}
-                                height={568}
-                                style={{
-                                    borderRadius: "10px"
-                                }}
-                            />
-                        </div>
-                        <div className={styles.imagem}>
-                            <Image
-                                src="/images/8.jpg"
-                                alt="Fotos de pessoas"
-                                width={440}
-                                height={568}
-                                style={{
-                                    borderRadius: "10px"
-                                }}
-                            />
-                        </div> 
+                <div className={styles.principal}>
+                    <div className={styles.imagem}>
+                        <Image
+                            src="/images/1.jpg"
+                            alt="Fotos de pessoas"
+                            {...ImageAttr}
+                        />
                     </div>
-                    <div className={styles.textoDestaque}>
-                        <h1>Alerta Dengue: <br /> Identifique os <br />Sintomas</h1>
+                    <div className={styles.imagem}>
+                        <Image
+                            src="/images/9.jpg"
+                            alt="Fotos de pessoas"
+                            {...ImageAttr}
+                        />
                     </div>
+                    <div className={styles.imagem}>
+                        <Image
+                            src="/images/6.png"
+                            alt="Fotos de pessoas"
+                            {...ImageAttr}
+                        />
+                    </div>
+                    <div className={styles.imagem}>
+                        <Image
+                            src="/images/8.jpg"
+                            alt="Fotos de pessoas"
+                            {...ImageAttr}
+                        />
+                    </div> 
                 </div>
+                {/* <div className={styles.textoDestaque}>
+                    <h1>Alerta Dengue: <br /> Identifique os <br />Sintomas</h1>
+                </div> */}
                 <div className={styles.ataques}>
                     <h1 className="title-two">Como a Dengue ataca o corpo?</h1>
                     <p>
@@ -79,11 +69,7 @@ export default function Sintomas() {
                         <Image
                             src="/images/14.png"
                             alt="Fotos de pessoas"
-                            fill={true}
-                            objectFit="cover"
-                            style={{
-                                borderRadius: "10px"
-                            }}
+                            {...ImageAttr}
                         />
                     </div>
                 </div>
