@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "./sintomas.module.css"
 import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 
+
+
 const ImageAttr = {
     fill: true,
     objectFit: "cover",
@@ -11,10 +13,12 @@ const ImageAttr = {
     }
 }
 
+
+
 export default function Sintomas() {
     return (
         <>
-            <main>
+            <main className={styles.tela}>
                 <div className={styles.principal}>
                     <div className={styles.imagem}>
                         <Image
@@ -73,7 +77,63 @@ export default function Sintomas() {
                         />
                     </div>
                 </div>
+                <div className={styles.evolucao}>
+                    <div className={styles.fotoAlcool}>
+                        <Image
+                            src="/images/15.png"
+                            alt="Fotos de pessoas"
+                            {...ImageAttr}
+                        />
+                    </div>
+                    <div className={styles.textoEvolucao}>
+                        <h1 className="title-two">Como tratar a dengue</h1>
+                        <p>
+                            A dengue deixa o corpo do paciente exausto, então o paciente precisa descansar, comer bem, beber muita água, tomar mais vitaminas para melhorar o sistema imunológico. A maioria dos pacientes com dengue morreu por motivos subjetivos, indo ao hospital quando sua condição piorava.
+                        </p>
+                        <br/>
+                        <p>
+                            Nos primeiros dias de febre, o paciente será prescrito um antipirético contendo um único ingrediente paracetamol. Tomar o medicamento errado ou tomar uma overdose pode ser fatal. Não tome aspirina e ibuprofeno porque previne o acúmulo de plaquetas, causando sangramento estomacal.Pode reduzir a febre cobrindo a testa com toalha quente, enxugando o corpo, axila… Incentivar o paciente a beber bastante água, suco, beber mais Oresol. Os adultos precisam beber de 2,5 a 3 litros por dia.
+                        </p>
+                    </div>
+                </div>
+            <div className={styles.textoEvolucao}>
+                        <h1 className="title-two">Principais Sintomas </h1>
+                        <p>
+                            A dengue é uma doença viral transmitida por mosquitos que pode causar uma variedade de sintomas. Os sintomas comuns incluem febre alta, dores de cabeça intensas, dor atrás dos olhos, dores musculares e articulares e erupções cutâneas. Além disso, a dengue pode levar a sintomas mais graves, como dengue hemorrágica, caracterizada por sangramento, diminuição da pressão arterial e falha orgânica potencialmente fatal. É importante buscar atendimento médico imediato ao apresentar sintomas de dengue para um diagnóstico e tratamento adequados.
+                        </p>
+            </div>
+                <div className={styles.listagemSintomas}>
+                    <div className={styles.baseLista}>
+                        <ul className={styles.lista}>
+                            <li>Febre Alta</li>
+                            <li>Dor nos olhos</li>
+                            <li>Falta de apetite</li>
+                            <li>Hemorragia</li>
+                        </ul>
+                        <ul className={styles.lista}>
+                            <li>Dor no Corpo</li>
+                            <li>Manchas</li>
+                            <li>Dor de Cabeça</li>
+                        </ul>
+                        </div>    
+                    
+
+                    <div className={styles.caixaTexto}>    
+                        <h2>Importante </h2>
+                        <p>Idosos e pessoas com doenças crônicas, como diabetes e hipertensão, têm maior risco de evoluir para casos graves ou morte.</p>
+                        <br />
+                        <p>O mal-estar da doença pode durar até dez dias, mas dependendo do caso, permanece por semanas.</p>
+                    </div>
+                </div>
             </main>
+            <div className={styles.final}>
+                <Image
+                    src="/image7.png"
+                    alt="Fotos de pessoas"
+                    width={1920}
+                    height={390}
+                />
+            </div>
             <Footer/>
             <ScrollToTopButton/>
         </>
