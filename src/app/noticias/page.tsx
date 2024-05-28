@@ -14,7 +14,7 @@ const ImageAttr = {
 export default function Noticias() {
     return (
         <>
-            <main className={styles.main}>
+            <main>
                 <section className={styles.section}>
                     <div className={styles.gallery}>
                         <div className={styles.galleryImage}>

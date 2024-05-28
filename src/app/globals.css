@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -34,7 +36,12 @@
 }
 
 main {
-  @apply flex min-h-screen flex-col items-center justify-between py-24 mx-16;
+  @apply flex min-h-screen flex-col items-center justify-between py-12 mx-16;
+}
+
+p {
+  line-height: 1.96875em;
+  text-align: justify
 }
 
 footer {
@@ -59,6 +66,6 @@ footer > p {
   }
 
   footer {
-    @apply py-6 px-6;
+    @apply py-6 px-8;
   }
 }
