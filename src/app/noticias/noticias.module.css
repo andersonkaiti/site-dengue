@@ -1,4 +1,7 @@
+
 .gallery {
+    margin: auto;
+    max-width: 1200px;
     display: flex;
     height: 400px;
     gap: 1em;
