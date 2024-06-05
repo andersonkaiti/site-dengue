@@ -1,0 +1,29 @@
+.boxImg {
+    display: flex;
+    gap: 1em;
+    height: 400px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.ImagensPrevencao {
+    position: relative;
+    height: 70%;
+    width: 25%;
+}
+
+.textoPrimeiro > h2, .textoSegundo > h2, .textoTerceiro > h2 {
+    background: linear-gradient(to bottom, #4C6DE5, #243FC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.textoPrimeiro > p, .textoSegundo > p, .textoTerceiro > p {
+    margin-top: 20px;
+    text-align: justify;
+    max-width: 800px;
+}
+
