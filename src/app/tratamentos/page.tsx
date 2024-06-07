@@ -3,6 +3,8 @@ import styles from "./tratamentos.module.css";
 import Image from "next/image";
 
 const imageBorder = { borderRadius: '10px' };
+const width = 400;
+const height = 400;
 
 export default function Tratamentos() {
     return (
@@ -12,8 +14,8 @@ export default function Tratamentos() {
                     <Image
                         src="/crianca_tratamentos.png"
                         alt="Crianca"
-                        width={400}
-                        height={400}
+                        width={width}
+                        height={height}
                         style={imageBorder} 
                     />
                 </div>
@@ -21,8 +23,8 @@ export default function Tratamentos() {
                     <Image
                         src="/cama_tratamentos.png"
                         alt="Crianca"
-                        width={400}
-                        height={400}
+                        width={width}
+                        height={height}
                         style={imageBorder}
                     />
                 </div>
@@ -30,8 +32,8 @@ export default function Tratamentos() {
                     <Image
                         src="/triste_tratamentos.png"
                         alt="Crianca"
-                        width={400}
-                        height={400}
+                        width={width}
+                        height={height}
                         style={imageBorder} 
                     />
                 </div>
@@ -39,8 +41,8 @@ export default function Tratamentos() {
                     <Image
                         src="/familia_tratamentos.png"
                         alt="Crianca"
-                        width={400}
-                        height={400}
+                        width={width}
+                        height={height}
                         style={imageBorder} 
                     />
                 </div>
@@ -48,8 +50,8 @@ export default function Tratamentos() {
                     <Image
                         src="/remedio_tratamentos.png"
                         alt="Crianca"
-                        width={400}
-                        height={400}
+                        width={width}
+                        height={height}
                         style={imageBorder} 
                     />
                 </div>
