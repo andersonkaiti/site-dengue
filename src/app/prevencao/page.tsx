@@ -57,10 +57,9 @@ export default function Prevencao() {
                         </div>
                     </div>
                 </section>
-<<<<<<< HEAD
 
-                <section className={styles.textoPrimeiro}>
-                    <h2>Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h2>
+                <section className={styles.content}>
+                    <h2 className="title-two">Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h2>
                     <p>Realizar a prevenção contra o mosquito da dengue é fundamental. Isso porque, doença é uma ameaça à saúde coletiva. É importante lembrar que ela pode levar o indivíduo a óbito.
                     <br /><br />
                     Segundo a enfermeira do Programa de Educação em Saúde Ambiental do Núcleo Especial de Vigilância Ambiental (GEVS), Mayra Rodrigues, o combate à doença também é papel da população, já que os criadouros do mosquito podem ser localizados em terrenos e em residências.
@@ -74,8 +73,8 @@ export default function Prevencao() {
                     O combate à dengue é um exemplo de como devemos nos manter atentos às diferentes doenças que podem nos impactar. Lembre-se que a prevenção é o melhor caminho em todos os casos, pois reduz bastante as chances de você ter de enfrentar o vírus em seu corpo.</p>
                 </section>
 
-                <section className={styles.textoSegundo}>
-                    <h2>Medidas de Prevenção:</h2>
+                <section className={styles.content}>
+                    <h2 className="title-two">Medidas de Prevenção</h2>
                     <p>
                     A melhor forma de prevenção da dengue é evitar a proliferação do mosquito Aedes Aegypti, eliminando água armazenada que podem se tornar possíveis criadouros, como em vasos de plantas, lagões de água, pneus, garrafas plásticas, piscinas sem uso e sem manutenção, e até mesmo em recipientes pequenos, como tampas de garrafas.
                     <br /><br />
@@ -87,8 +86,8 @@ export default function Prevencao() {
                     </p>
                 </section>
 
-                <section className={styles.textoTerceiro}>
-                    <h2>Checklists:</h2>
+                <section className={styles.content}>
+                    <h2 className="title-two">Checklists</h2>
                     <ul className={styles.listaPrincipal}>
                         <li className={styles.itensLista}>Não deixe água parada, destruindo os locais onde o mosquito nasce e se desenvolve.</li>
                         <li className={styles.itensLista}>Deixe sempre bem tampados e lave com bucha e sabão as paredes internas de caixas d'água, poços, cacimbas, tambores de água ou tonéis, cisternas, jarras e filtros.</li>
@@ -109,8 +108,8 @@ export default function Prevencao() {
                     <p>Fonte: Governo do Estado do Paraná.</p>
                 </section>
 
-                <section className={styles.textoQuarto}>
-                    <h2>Dicas Práticas:</h2>
+                <section className={styles.content}>
+                    <h2 className="title-two">Dicas Práticas</h2>
                     <ul className={styles.listaPrincipal}>
                         <li className={styles.itensLista}>Impedir a acumulação de água parada, pois ela pode se tornar um criadouro do Aedes Aegypti.</li>
                         <li className={styles.itensLista}>Tenha atenção redobrada com vasos de plantas, calhas, barris, tanques, pneus, garrafas plásticas, recipientes pequenos e qualquer objeto que possa acumular água parada.</li>
@@ -120,25 +119,6 @@ export default function Prevencao() {
                         </li>
                         <li className={styles.itensLista}>Faça uma revisão geral dos possíveis focos de água parada antes de viajar ou se ausentar por alguns dias.</li>
                     </ul>
-=======
-                <section className={styles.content}>
-                    <h2 className="title-two">Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod omnis suscipit impedit id, minus doloremque modi labore molestiae veniam quia numquam nam eos. A magnam modi delectus tempore aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut minima atque tempora quod? Reiciendis vero fugiat est fugit facilis repudiandae sunt, molestias repellat ut obcaecati sit dignissimos doloribus qui distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, molestias? Quisquam, ullam excepturi? Ipsam aliquid recusandae, vel saepe dicta in, harum, inventore id placeat eum non maiores eius iste qui!
-                    </p>
-                </section>
-                <section className={styles.content}>
-                    <h2 className="title-two">Medidas de Prevenção</h2>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nobis explicabo dolore recusandae quo laborum veniam neque. Excepturi, minus cumque consectetur velit aut voluptatum, ea totam, dolore quis unde sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet perferendis reiciendis culpa sint in similique voluptatibus quisquam ipsam provident? Similique fugit beatae perferendis error dicta. Quis doloremque placeat voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dolores! Quisquam, eos nostrum quia illum veniam quae sapiente quidem dolores velit, perferendis voluptates laborum dicta accusantium exercitationem nobis molestiae. Reiciendis.
-                    </p>
-                </section>
-                <section className={styles.content}>
-                    <h2 className="title-two">Checklists e Dicas Práticas</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est iste ullam laboriosam expedita praesentium pariatur molestias sequi eaque adipisci, fuga nesciunt perferendis dicta. Dolores earum exercitationem fugiat, possimus sequi provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae et natus nihil officia voluptates adipisci accusamus inventore expedita nam nulla minus accusantium eveniet porro, culpa, omnis perspiciatis doloribus eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat libero animi suscipit dolorum reprehenderit atque quis at magnam velit similique quasi alias repudiandae, aut obcaecati facere iure, quidem rem. Qui?
-                    </p>
->>>>>>> 61f74b8c12c5adf4be9691e3a230f6f748738842
                 </section>
             </main>
             <Footer/>
