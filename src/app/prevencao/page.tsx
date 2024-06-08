@@ -64,7 +64,7 @@ export default function Prevencao() {
                     <br /><br />
                     Segundo a enfermeira do Programa de Educação em Saúde Ambiental do Núcleo Especial de Vigilância Ambiental (GEVS), Mayra Rodrigues, o combate à doença também é papel da população, já que os criadouros do mosquito podem ser localizados em terrenos e em residências.
                     <br /><br />
-                    “A única forma de prevenção ao mosquito é eliminar os possíveis criadouros. É essencial que a população participe com os cuidados necessários contra a doença. Prestar atenção e se autoeducar diariamente, com a finalidade de manter o ambiente sempre limpo para impedir a proliferação da dengue é de extrema importância”, ressaltou.
+                    &quot;A única forma de prevenção ao mosquito é eliminar os possíveis criadouros. É essencial que a população participe com os cuidados necessários contra a doença. Prestar atenção e se autoeducar diariamente, com a finalidade de manter o ambiente sempre limpo para impedir a proliferação da dengue é de extrema importância&quot;, ressaltou.
                     <br /><br />
                     Fonte: Assessoria de Comunicação da Sesa
                     <br /><br />
@@ -90,14 +90,14 @@ export default function Prevencao() {
                     <h2 className="title-two">Checklists</h2>
                     <ul className={styles.listaPrincipal}>
                         <li className={styles.itensLista}>Não deixe água parada, destruindo os locais onde o mosquito nasce e se desenvolve.</li>
-                        <li className={styles.itensLista}>Deixe sempre bem tampados e lave com bucha e sabão as paredes internas de caixas d'água, poços, cacimbas, tambores de água ou tonéis, cisternas, jarras e filtros.</li>
+                        <li className={styles.itensLista}>Deixe sempre bem tampados e lave com bucha e sabão as paredes internas de caixas d&#39;água, poços, cacimbas, tambores de água ou tonéis, cisternas, jarras e filtros.</li>
                         <li className={styles.itensLista}>Não deixe acumular água em pratos de vasos de plantas e xaxins. Coloque areia fina até a borda do pratinho.</li>
                         <li className={styles.itensLista}>Plantas que possam acumular água devem ser tratadas com água sanitária na proporção de uma colher de sopa para um litro de água, regando no mínimo duas vezes por semana.</li>
                         <li className={styles.itensLista}>Entregue pneus velhos ao serviço de limpeza urbana ou guarde-os em local coberto.</li>
                         <li className={styles.itensLista}>Deixe a tampa do vaso sanitário sempre fechado. Em banheiros pouco usados, dê descarga pelo menos uma vez por semana.</li>
                         <li className={styles.itensLista}>Retire sempre a água acumulada da bandeja externa da geladeira e lave com água e sabão.</li>
                         <li className={styles.itensLista}>Sempre que for trocar o garrafão de água mineral, lave bem o suporte no qual a água fica acumulada.</li>
-                        <li className={styles.itensLista}>Mantenha sempre limpo: lagos, cascatas e espelhos d'água decorativos. Crie peixes nesses locais, eles se alimentam das larvas dos mosquitos.</li>
+                        <li className={styles.itensLista}>Mantenha sempre limpo: lagos, cascatas e espelhos d&#39;água decorativos. Crie peixes nesses locais, eles se alimentam das larvas dos mosquitos.</li>
                         <li className={styles.itensLista}>Lave e troque a água dos bebedouros de aves e animais no mínimo uma vez por semana.</li>
                         <li className={styles.itensLista}>Limpe frequentemente as calhas e a laje das casas, coloque areia nos cacos de vidro no muro que possam acumular água.</li>
                         <li className={styles.itensLista}>Mantenha a água da piscina sempre tratada com cloro e limpe-a uma vez por semana.</li>
