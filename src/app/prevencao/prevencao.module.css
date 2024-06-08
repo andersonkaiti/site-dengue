@@ -12,7 +12,7 @@
     width: 25%;
 }
 
-.textoPrimeiro > h2, .textoSegundo > h2, .textoTerceiro > h2 {
+.textoPrimeiro > h2, .textoSegundo > h2, .textoTerceiro > h2, .textoQuarto > h2 {
     background: linear-gradient(to bottom, #4C6DE5, #243FC8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -21,9 +21,19 @@
     text-align: center;
 }
 
-.textoPrimeiro > p, .textoSegundo > p, .textoTerceiro > p {
+.textoPrimeiro > p, .textoSegundo > p, .textoTerceiro > p, .textoQuarto > p {
     margin-top: 20px;
     text-align: justify;
-    max-width: 800px;
 }
 
+.listaPrincipal {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.itensLista {
+    padding: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
