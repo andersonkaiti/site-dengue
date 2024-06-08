@@ -1,17 +1,29 @@
-.boxImg {
+.gallery {
     display: flex;
     gap: 1em;
     height: 400px;
     width: 100%;
-    align-items: flex-end;
 }
 
-.ImagensPrevencao {
+.verticalGallery,
+.galleryCenter {
+    width: 33.33%;
+    height: 100%;
+}
+
+.verticalGallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.galleryImage {
     position: relative;
-    height: 70%;
-    width: 25%;
+    width: 100%;
+    height: 100%;
 }
 
+<<<<<<< HEAD:src/app/prevencao/prevencao.module.css
 .textoPrimeiro > h2, .textoSegundo > h2, .textoTerceiro > h2, .textoQuarto > h2 {
     background: linear-gradient(to bottom, #4C6DE5, #243FC8);
     -webkit-background-clip: text;
@@ -22,10 +34,18 @@
 }
 
 .textoPrimeiro > p, .textoSegundo > p, .textoTerceiro > p, .textoQuarto > p {
+=======
+.content {
+    margin-top: 5em;
+}
+
+.content p {
+>>>>>>> 61f74b8c12c5adf4be9691e3a230f6f748738842:src/app/prevencao/sintomas.module.css
     margin-top: 20px;
     text-align: justify;
 }
 
+<<<<<<< HEAD:src/app/prevencao/prevencao.module.css
 .listaPrincipal {
     list-style-type: disc;
     padding: 0;
@@ -36,4 +56,22 @@
     padding: 10px;
     margin-bottom: 5px;
     position: relative;
+=======
+@media screen and (max-width: 520px) {
+    .gallery {
+        height: 280px;
+    }
+
+    .verticalGallery {
+        display: none;
+    }
+
+    .galleryCenter {
+        width: 100%;
+    }
+
+    .content {
+        margin-top: 2em;
+    }
+>>>>>>> 61f74b8c12c5adf4be9691e3a230f6f748738842:src/app/prevencao/sintomas.module.css
 }
