@@ -17,8 +17,8 @@ export const navLinks = [
         page: "Prevenção"
     },
     {
-        href: "/postos-de-saude",
-        page: "Postos de Saúde"
+        href: "/tratamentos",
+        page: "Tratamentos"
     },
     {
         href: "/noticias",
