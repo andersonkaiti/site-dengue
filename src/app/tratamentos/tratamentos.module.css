@@ -1,3 +1,40 @@
+.container{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.TituloPrincipal{
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    padding: 0 3em;
+    background-image: linear-gradient(to bottom, #4C6DE5, #243FC8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.Introducao{
+    margin: 50px;
+}
+
+.SubCabecalho{
+    margin: 15px;
+}
+
+.SubCabecalho h2 {
+    background: linear-gradient(180deg, #4C6DE5 48.96%, #243FC8 100%);
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
 .imagens {
     display: flex;
     align-items: center;
@@ -21,5 +58,23 @@
 }
 
 .ImagensIndividuais img:hover {
-    transform: scale(1.1); /* Aumenta a imagem em 10% quando o mouse passa sobre ela */
+    transform: scale(1.1);
+}
+
+.ImagemEmC {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 50% 50%, 0 50%);
+}
+
+.imageContainer {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15%; /* Adiciona bordas arredondadas para tornar a forma mais suave */
+    clip-path: polygon(0% 0%, 70% 0%, 30% 100%, 70% 100%, 0% 100%, 0% 50%);
 }
