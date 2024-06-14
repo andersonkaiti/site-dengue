@@ -1,10 +1,12 @@
-.container{
+.container {
     align-items: center;
     align-content: center;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
-.TituloPrincipal{
+    
+.TituloPrincipal {
     padding-bottom: 25px;
     font-size: 30px;
     font-weight: bold;
@@ -17,64 +19,76 @@
     color: black;
 }
 
-.Introducao{
+.Introducao {
     margin: 50px;
 }
 
-.SubCabecalho{
+.SubCabecalho {
     margin: 15px;
 }
 
 .SubCabecalho h2 {
     background: linear-gradient(180deg, #4C6DE5 48.96%, #243FC8 100%);
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 15px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
 }
 
-.imagens {
+.FlexContainer {
     display: flex;
-    align-items: center;
-    padding: 0 6.5em;
+    align-items: stretch;
+    justify-content: space-between;
+    text-align: left;
 }
 
-.ImagensIndividuais {
-    margin: 20px;
-    align-content: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
+.FlexContainer p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ImagemMosquito {
+    position: relative;
+    flex: 1;
+    height: auto;
+    max-height: 100%;
     overflow: hidden;
-    border-radius: 10%;
+    margin-left: 20px;
 }
 
-.ImagensIndividuais img {
-    width: 400px;
-    height: 250px; 
+.ImagemMosquito img {
+    width: 50%;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
 
-.ImagensIndividuais img:hover {
+.ImagemMosquito img{
     transform: scale(1.1);
 }
 
-.ImagemEmC {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 50% 50%, 0 50%);
+.ImagensTratamentos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
 }
 
-.imageContainer {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
+.ImagemColuna {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400;
+}
+
+.ImagemTratamento {
     position: relative;
-    border-radius: 15%; /* Adiciona bordas arredondadas para tornar a forma mais suave */
-    clip-path: polygon(0% 0%, 70% 0%, 30% 100%, 70% 100%, 0% 100%, 0% 50%);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
 }
