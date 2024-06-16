@@ -9,11 +9,32 @@ export default function Tratamentos() {
         <>
             <main>
                 <div className={styles.TituloPrincipal}>
-                    <h1>Conheça os Tratamentos e Proteja Sua Saúde!</h1>
+                    <h1>Conheça os Tratamentos 
+                        <br></br>e Proteja Sua Saúde!</h1>
                 </div>
                 <div className={styles.container}>
-                    <div className={styles.Introducao}>
-                        Espaço para introdução das imagens
+                    <div className={styles.ImagemTermometro}>
+                        <Image
+                            src="/tratamentos/TermometroTratamentos.png"
+                            layout="fill"
+                            objectFit="cover"
+                            alt="Mosquito"
+                        />
+                    </div>
+                    <div className={styles.IntroducaoFlexContainer}>
+                        <div className={styles.SubCabecalho}>
+                            <h2>Tratamento precoce, <br></br>
+                            esperança renovada: <br></br> 
+                            juntos, vencemos a dengue</h2>
+                        </div>
+                        <div className={styles.ImagemIntroducao}>
+                            <Image
+                                src="/tratamentos/MosquitoTratamentos.jpg"
+                                layout="fill"
+                                objectFit="cover"
+                                alt="Mosquito"
+                            />
+                        </div>
                     </div>
                     <div className={styles.SubCabecalho}>
                         <h2>Tratamentos</h2>
@@ -108,7 +129,7 @@ export default function Tratamentos() {
                                     />
                                 </div>
                             </div>
-                            <div className={styles.ImagemColuna}>
+                            <div className={styles.ImagemColunaDireita}>
                                 <div className={styles.ImagemTratamento}>
                                     <Image
                                         src="/tratamentos/IdosoCobertoTratamentos.jpg"
@@ -127,8 +148,8 @@ export default function Tratamentos() {
                         </p>
                     </div>  
                 </div> 
-                <Footer/>
             </main>
+            <Footer/>
         </>
     );
 }
