@@ -21,13 +21,13 @@ export default function Footer() {
                 <div>
                     <h2>AEDES AEGYPTI</h2>
                     <p>Conhecendo o Aedes aegypti</p>
-                    <p>Mitos e verdades</p>        
+                    <p>Mitos e verdades</p>
                 </div>
                 <div>
                     <h2>Contato?</h2>
                     <p>
                         <Image
-                            src="/icons/material-symbols_chat-bubble-outline-rounded.png"
+                            src="/icons/message-regular.svg"
                             width="20"
                             height="20"
                             alt="Message"
@@ -36,14 +36,14 @@ export default function Footer() {
                     </p>
                     <p>
                         <Image
-                            src="/icons/ic_outline-email.png"
+                            src="/icons/envelope-regular.svg"
                             width="20"
                             height="20"
                             alt="Email"
                         />
                         Email
                         <Image
-                            src="/icons/ph_arrow-square-out-bold.png"
+                            src="/icons/arrow-up-right-from-square-solid.svg"
                             width="20"
                             height="20"
                             alt="Send"
@@ -51,7 +51,7 @@ export default function Footer() {
                     </p>
                     <p>
                         <Image
-                            src="/icons/ic_baseline-local-phone.png"
+                            src="/icons/phone-solid.svg"
                             width="20"
                             height="20"
                             alt="Phone"
@@ -63,21 +63,21 @@ export default function Footer() {
                     <h2>Redes Sociais</h2>
                     <p>
                         <Image
-                            src="/icons/mdi_instagram.png"
-                            width="50"
-                            height="50"
+                            src="/icons/instagram.svg"
+                            width="40"
+                            height="40"
                             alt="Instagram"
                         />
                         <Image
-                            src="/icons/mdi_twitter.png"
-                            width="50"
-                            height="50"
+                            src="/icons/twitter.svg"
+                            width="40"
+                            height="40"
                             alt="Twiiter"
                         />
                         <Image
-                            src="/icons/ic_baseline-facebook.png"
-                            width="50"
-                            height="50"
+                            src="/icons/facebook.svg"
+                            width="40"
+                            height="40"
                             alt="Facebook"
                         />
                     </p>
@@ -86,4 +86,4 @@ export default function Footer() {
             <p>Copyright© 2024 Grupo 11. Todos os direitos reservados</p>
         </footer>
     );
-}   
+}

@@ -184,6 +184,10 @@
     .dengueTreat {
         margin-top: 2em;
     }
+
+    .textBox > h2::after {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1950px) {

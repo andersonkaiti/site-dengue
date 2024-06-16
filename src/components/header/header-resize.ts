@@ -7,7 +7,7 @@ export function handleResize({
     setSidebar,
     setAnimation
 }: HandleResizeProps) {
-    if(window.innerWidth >= 715) {
+    if(window.innerWidth >= 790) {
         setSidebar(false);
         setAnimation(false);
     } else {

@@ -1,0 +1,95 @@
+.creditsContent {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.creditsContentText,
+.creditsContentImage {
+    flex: 1;
+    position: relative;
+}
+
+.creditsContentOne .creditsContentText {
+    padding: 2em;
+}
+
+.creditsContentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.creditsContentLogo,
+.creditsContentImage {
+    position: relative;
+}
+
+.creditsContentLogo {
+    height: 200px;
+}
+
+.creditsContentOne .creditsContentImage img {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.creditsContentTwo .creditsContentImage img {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.creditsContent p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #979797;
+    font-weight: bold
+}
+
+.content,
+.support {
+    @apply py-12 mx-16;
+}
+
+.support p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1010px) {
+    .creditsContent {
+        width: 100%;
+        height: auto;
+    }
+
+    .creditsContentImage {
+        display: none;
+    }
+
+    .creditsContentText {
+        height: 100%;
+        width: 100%;
+    }
+
+    .creditsContentLogo {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .content,
+    .creditsContentText {
+        padding: 0;
+        @apply py-8 mx-8
+    }
+
+    .creditsContentOne .creditsContentText {
+        padding: 0em;
+    }
+
+    .creditsContentText p {
+        text-align: center;
+        font-size: 1.2em;
+        color: #979797;
+        font-weight: bold
+    }
+}

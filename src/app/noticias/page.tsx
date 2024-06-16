@@ -1,7 +1,6 @@
 import Footer from "@/components/footer/footer";
 import Image from "next/image";
 import styles from  "../noticias/noticias.module.css";
-import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 
 const ImageAttr = {
     fill: true,
@@ -112,7 +111,6 @@ export default function Noticias() {
                 </section>
             </main>
             <Footer/>
-            <ScrollToTopButton/>
         </>
     );
 }
