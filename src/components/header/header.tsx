@@ -22,6 +22,13 @@ export default function Header() {
 
         handleResize(props);
         window.addEventListener("resize", () => handleResize(props));
+
+        document.addEventListener("click", event => {
+            const target = event.target as HTMLElement;
+            if(!target.closest("header")) {
+                setSidebar(false);
+            }
+        });
     }, []);
 
     return (

@@ -113,7 +113,7 @@
     }
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 790px) {
     .header {
         justify-content: flex-start;
     }

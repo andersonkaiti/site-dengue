@@ -36,7 +36,9 @@
 }
 
 main {
-  @apply flex min-h-screen flex-col items-center justify-between py-12 mx-16;
+  @apply py-12 px-16 mx-auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 p {
@@ -57,7 +59,7 @@ footer > p {
 
 @media screen and (max-width: 580px) {
   main {
-    @apply flex min-h-screen flex-col items-center justify-between py-12 mx-8;
+    @apply py-12 px-8;
   }
 
   .title-one,
