@@ -77,7 +77,7 @@ export default function Prevencao() {
                         </p>
                         <br />
                         <p>
-                            Além disso, é importante ressaltar que a fêmea do mosquito deposita seus ovos em recipientes ou superfícies que acumulam água, como vasos de plantas, pneus velhos, recipientes descartados e caixas d'água mal vedadas. Portanto, manter essas áreas limpas e secas é fundamental para interromper o ciclo de reprodução do mosquito e reduzir a incidência de dengue em uma comunidade.
+                            Além disso, é importante ressaltar que a fêmea do mosquito deposita seus ovos em recipientes ou superfícies que acumulam água, como vasos de plantas, pneus velhos, recipientes descartados e caixas d&#39;água mal vedadas. Portanto, manter essas áreas limpas e secas é fundamental para interromper o ciclo de reprodução do mosquito e reduzir a incidência de dengue em uma comunidade.
                         </p>
                     </div>
                     <div className={styles.identifyVectorImage}>
