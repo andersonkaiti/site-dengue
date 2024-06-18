@@ -10,48 +10,35 @@ const ImageAttr = {
 export default function Tratamentos() {
     return (
         <>
-            <section className={styles.banner}>
-                <div className={styles.bannerLeftSide}>
-                    <h1 className="title-two">Conheça os Tratamentos e Proteja Sua Saúde!</h1>
-                    <section className={styles.gallery}>
-                        <div className={styles.verticalGallery}>
-                            <div className={styles.galleryImage}>
-                                <Image
-                                    src="/tratamentos/TermometroTratamentos.png"
-                                    alt="Mosquito"
-                                    {...ImageAttr}
-                                />
-                            </div>
-                            <h2 className={styles.bannerTitle}>
-                                Tratamento precoce,
-                                <br />
-                                esperança renovada:
-                                <br />
-                                juntos, vencemos a dengue
-                            </h2>
-                        </div>
-                        <div className={styles.verticalGallery}>
-                            <div className={styles.galleryImage}>
-                                <Image
-                                    src="/tratamentos/MosquitoTratamentos.jpg"
-                                    alt="Mosquito"
-                                    {...ImageAttr}
-                                />
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <div className={styles.bannerRightSide}>
-                    <div className={styles.sphereImage}>
-                        <Image
-                            alt="Imagem Dengue 4"
-                            src="/imagem-dengue-4.png"
-                            {...ImageAttr}
-                        />
-                    </div>
-                </div>
-            </section>
             <main>
+                <h1 className="title-two">Conheça os Tratamentos e Proteja Sua Saúde!</h1>
+                <section className={`${styles.gallery} ${styles.banner}`}>
+                    <div className={styles.verticalGallery}>
+                        <div className={styles.galleryImage}>
+                            <Image
+                                src="/tratamentos/TermometroTratamentos.png"
+                                alt="Mosquito"
+                                {...ImageAttr}
+                            />
+                        </div>
+                        <h2 className="title-two">
+                            Tratamento precoce,
+                            <br />
+                            esperança renovada:
+                            <br />
+                            juntos, vencemos a dengue
+                        </h2>
+                    </div>
+                    <div className={styles.verticalGallery}>
+                        <div className={styles.galleryImage}>
+                            <Image
+                                src="/tratamentos/MosquitoTratamentos.jpg"
+                                alt="Mosquito"
+                                {...ImageAttr}
+                            />
+                        </div>
+                    </div>
+                </section>
                 <section className={styles.content}>
                     <h2 className="title-two">Tratamentos</h2>
                     <p>
@@ -66,7 +53,7 @@ export default function Tratamentos() {
                         Estamos comprometidos em ser uma fonte confiável de informação, colaborando com profissionais de saúde e usando tecnologia para disponibilizar recursos úteis e acessíveis para toda a comunidade. Juntos, podemos combater a dengue de maneira mais eficaz e proteger a saúde de todos.
                     </p>
                 </section>
-                <section className={styles.identifySymptons}>
+                <section className={`${styles.identifySymptons} ${styles.content}`}>
                     <div className={styles.identifySymptonsContent}>
                         <h2 className="title-two">Identificação dos sintomas</h2>
                         <p>
@@ -134,7 +121,7 @@ export default function Tratamentos() {
                     <p>
                         Pacientes com dengue devem também evitar medicamentos combinados que possam conter anti-inflamatórios em sua composição. Em caso de dúvidas sobre o uso de qualquer medicamento, consulte um profissional de saúde para obter recomendações adequadas e seguras.
                     </p>
-                    <section className={`${styles["gallery"]} ${styles["medications"]}`}>
+                    <section className={styles.gallery}>
                         <div className={styles.verticalGallery}>
                             <div className={styles.galleryImage}>
                                 <Image

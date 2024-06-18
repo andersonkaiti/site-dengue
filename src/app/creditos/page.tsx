@@ -10,7 +10,7 @@ const ImageAttr = {
 export default function Creditos() {
     return (
         <>
-            <section className={`${styles["creditsContent"]} ${styles["creditsContentOne"]}`}>
+            <section className={`${styles.creditsContent} ${styles.creditsContentOne}`}>
                 <div className={styles.creditsContentText}>
                     <h1 className="title-two">FÁBRICA DE SOFTWARE: DESENVOLVIMENTO DE WEBSITES, APLICATIVOS E JOGOS</h1>
                     <div className={styles.creditsContentLogo}>
@@ -36,7 +36,7 @@ export default function Creditos() {
                     O site informativo sobre a dengue, um projeto de extensão do curso de Ciências da Computação da Universidade UNISAGRADO, tem como missão promover a conscientização e a educação da população sobre a prevenção e o combate à dengue. Através de uma plataforma acessível e interativa, buscamos disseminar informações precisas e atualizadas sobre os sintomas, tratamento e medidas preventivas contra a dengue, além de incentivar a participação ativa da comunidade na luta contra essa doença.
                 </p>
             </section>
-            <section className={`${styles["creditsContent"]} ${styles["creditsContentTwo"]}`}>
+            <section className={`${styles.creditsContent} ${styles.creditsContentTwo}`}>
                 <div className={styles.creditsContentImage}>
                     <Image
                         alt="Imagem Dengue 4"
@@ -44,7 +44,7 @@ export default function Creditos() {
                         {...ImageAttr}
                     />
                 </div>
-                <div className={`${styles["creditsContentText"]} ${styles["content"]}`}>
+                <div className={`${styles.creditsContentText} ${styles.content}`}>
                     <h1 className="title-two">Colaboradores</h1>
                     <p>Prof. Dr. Elvio Gilberto da Silva</p>
                     <p>Anderson Kaiti</p>
