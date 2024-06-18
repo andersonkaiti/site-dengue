@@ -18,7 +18,7 @@ export default function Prevencao() {
                     <div className={styles.verticalGallery}>
                         <div className={styles.galleryImage}>
                             <Image
-                                src="/prevencao/image10.png"
+                                src="/tratamentos/IdosoTristeTratamentos.jpg"
                                 alt="Foto1"
                                 {...ImageAttr}
                             />
@@ -34,7 +34,7 @@ export default function Prevencao() {
                     <div className={styles.galleryCenter}>
                         <div className={styles.galleryImage}>
                             <Image
-                                src="/prevencao/image7.png"
+                                src="/tratamentos/IdosoCobertoTratamentos.jpg"
                                 alt="Foto3"
                                 {...ImageAttr}
                             />
@@ -60,66 +60,109 @@ export default function Prevencao() {
 
                 <section className={styles.content}>
                     <h2 className="title-two">Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h2>
-                    <p>Realizar a prevenção contra o mosquito da dengue é fundamental. Isso porque, doença é uma ameaça à saúde coletiva. É importante lembrar que ela pode levar o indivíduo a óbito.
-                    <br /><br />
-                    Segundo a enfermeira do Programa de Educação em Saúde Ambiental do Núcleo Especial de Vigilância Ambiental (GEVS), Mayra Rodrigues, o combate à doença também é papel da população, já que os criadouros do mosquito podem ser localizados em terrenos e em residências.
-                    <br /><br />
-                    &quot;A única forma de prevenção ao mosquito é eliminar os possíveis criadouros. É essencial que a população participe com os cuidados necessários contra a doença. Prestar atenção e se autoeducar diariamente, com a finalidade de manter o ambiente sempre limpo para impedir a proliferação da dengue é de extrema importância&quot;, ressaltou.
-                    <br /><br />
-                    Fonte: Assessoria de Comunicação da Sesa
-                    <br /><br />
-                    A Saúde é uma Responsabilidade de Todos!
-                    <br /><br />
-                    O combate à dengue é um exemplo de como devemos nos manter atentos às diferentes doenças que podem nos impactar. Lembre-se que a prevenção é o melhor caminho em todos os casos, pois reduz bastante as chances de você ter de enfrentar o vírus em seu corpo.</p>
-                </section>
-
-                <section className={styles.content}>
-                    <h2 className="title-two">Medidas de Prevenção</h2>
                     <p>
-                    A melhor forma de prevenção da dengue é evitar a proliferação do mosquito Aedes Aegypti, eliminando água armazenada que podem se tornar possíveis criadouros, como em vasos de plantas, lagões de água, pneus, garrafas plásticas, piscinas sem uso e sem manutenção, e até mesmo em recipientes pequenos, como tampas de garrafas.
-                    <br /><br />
-                    Roupas que minimizem a exposição da pele durante o dia - quando os mosquitos são mais ativos - proporcionam alguma proteção às picadas e podem ser uma das medidas adotadas, principalmente durante surtos. Repelentes e inseticidas também podem ser usados, seguindo as instruções do rótulo. Mosquiteiros proporcionam boa proteção para aqueles que dormem durante o dia, como bebês, pessoas acamadas e trabalhadores noturnos.
-                    <br /><br />
-                    No momento, só existe uma vacina contra dengue registrada na Anvisa, que está disponível na rede privada. Ela é usada em 3 doses no intervalo de 1 ano e só deve ser aplicada, segundo o fabricante, a OMS e a ANVISA, em pessoas que já tiveram pelo menos uma infecção por dengue. Esta vacina não está disponível no SUS, mas o Ministério da Saúde acompanha os estudos de outras vacinas.
-                    <br /><br />
-                    Fontes: Laboratório Cella   
+                        A prevenção da dengue é fundamental para reduzir a incidência da doença e proteger a saúde da comunidade. Nesta seção, exploramos estratégias eficazes para evitar a proliferação do mosquito transmissor e minimizar os riscos de infecção. Nosso objetivo é capacitar as pessoas com conhecimento e recursos para se protegerem e contribuírem para um ambiente mais seguro.
+                    </p>
+                    <br />
+                    <p>
+                        Além disso, promovemos a conscientização sobre a importância da prevenção não apenas como uma medida individual, mas como um esforço coletivo. Ao adotar práticas de prevenção em nossas casas, locais de trabalho e comunidades, podemos reduzir significativamente a transmissão da dengue e proteger os grupos mais vulneráveis, como crianças e idosos. Juntos, podemos criar um ambiente mais saudável e resistente à propagação da doença.   
                     </p>
                 </section>
 
-                <section className={styles.content}>
-                    <h2 className="title-two">Checklists</h2>
-                    <ul className={styles.listaPrincipal}>
-                        <li className={styles.itensLista}>Não deixe água parada, destruindo os locais onde o mosquito nasce e se desenvolve.</li>
-                        <li className={styles.itensLista}>Deixe sempre bem tampados e lave com bucha e sabão as paredes internas de caixas d&#39;água, poços, cacimbas, tambores de água ou tonéis, cisternas, jarras e filtros.</li>
-                        <li className={styles.itensLista}>Não deixe acumular água em pratos de vasos de plantas e xaxins. Coloque areia fina até a borda do pratinho.</li>
-                        <li className={styles.itensLista}>Plantas que possam acumular água devem ser tratadas com água sanitária na proporção de uma colher de sopa para um litro de água, regando no mínimo duas vezes por semana.</li>
-                        <li className={styles.itensLista}>Entregue pneus velhos ao serviço de limpeza urbana ou guarde-os em local coberto.</li>
-                        <li className={styles.itensLista}>Deixe a tampa do vaso sanitário sempre fechado. Em banheiros pouco usados, dê descarga pelo menos uma vez por semana.</li>
-                        <li className={styles.itensLista}>Retire sempre a água acumulada da bandeja externa da geladeira e lave com água e sabão.</li>
-                        <li className={styles.itensLista}>Sempre que for trocar o garrafão de água mineral, lave bem o suporte no qual a água fica acumulada.</li>
-                        <li className={styles.itensLista}>Mantenha sempre limpo: lagos, cascatas e espelhos d&#39;água decorativos. Crie peixes nesses locais, eles se alimentam das larvas dos mosquitos.</li>
-                        <li className={styles.itensLista}>Lave e troque a água dos bebedouros de aves e animais no mínimo uma vez por semana.</li>
-                        <li className={styles.itensLista}>Limpe frequentemente as calhas e a laje das casas, coloque areia nos cacos de vidro no muro que possam acumular água.</li>
-                        <li className={styles.itensLista}>Mantenha a água da piscina sempre tratada com cloro e limpe-a uma vez por semana.</li>
-                        <li className={styles.itensLista}>Mantenha o quintal limpo, recolhendo o lixo e detritos em volta das casas, limpando os latões e mantendo as lixeiras tampadas. Não jogue lixo em terrenos baldios, construções e praças.</li>
-                        <li className={styles.itensLista}>Permita sempre o acesso do agente de controle de zoonoses em sua residência ou estabelecimento comercial.</li>
-                    </ul>
-                    <br />
-                    <p>Fonte: Governo do Estado do Paraná.</p>
+                <section className={styles.identifyVector}>
+                    <div className={styles.identifyVectorContent}>
+                        <h2 className="title-two">Identificação dos Vetores</h2>
+                        <p>
+                            O mosquito Aedes aegypti é o principal vetor da dengue. Pequeno e escuro, ele se reproduz em água parada e é comumente encontrado em áreas urbanas. Conhecer seus hábitos de reprodução e os locais onde ele se prolifera é essencial para implementar medidas eficazes de controle.
+                        </p>
+                        <br />
+                        <p>
+                            Além disso, é importante ressaltar que a fêmea do mosquito deposita seus ovos em recipientes ou superfícies que acumulam água, como vasos de plantas, pneus velhos, recipientes descartados e caixas d'água mal vedadas. Portanto, manter essas áreas limpas e secas é fundamental para interromper o ciclo de reprodução do mosquito e reduzir a incidência de dengue em uma comunidade.
+                        </p>
+                    </div>
+                    <div className={styles.identifyVectorImage}>
+                        <Image
+                                src="/images/15.png"
+                                alt="Foto5"
+                                {...ImageAttr}
+                            />
+                    </div>
                 </section>
 
                 <section className={styles.content}>
-                    <h2 className="title-two">Dicas Práticas</h2>
-                    <ul className={styles.listaPrincipal}>
-                        <li className={styles.itensLista}>Impedir a acumulação de água parada, pois ela pode se tornar um criadouro do Aedes Aegypti.</li>
-                        <li className={styles.itensLista}>Tenha atenção redobrada com vasos de plantas, calhas, barris, tanques, pneus, garrafas plásticas, recipientes pequenos e qualquer objeto que possa acumular água parada.</li>
-                        <li className={styles.itensLista}>Encha de areia os pratos que dão sustentação aos vasos de plantas.</li>
-                        <li >Minimize a exposição da pele com o uso de roupas que cubram a maior parte possível do corpo.</li>
-                        <li className={styles.itensLista}>Utilize repelentes para complementar a proteção contra picadas de mosquito.
-                        </li>
-                        <li className={styles.itensLista}>Faça uma revisão geral dos possíveis focos de água parada antes de viajar ou se ausentar por alguns dias.</li>
-                    </ul>
+                    <div>
+                        <h2 className="title-two">Medidas de Controle do Mosquito</h2>
+                            <p>Eliminar os criadouros do mosquito é uma das estratégias mais eficazes de prevenção da dengue. Isso envolve remover recipientes que possam acumular água parada, como pneus, vasos de plantas e recipientes abandonados. Além disso, o uso de repelentes e inseticidas pode ajudar a reduzir a população de mosquitos em áreas propensas à dengue.</p>
+                            <br />
+                            <p>É importante ressaltar que a manutenção regular de áreas ao ar livre, como jardins e quintais, também desempenha um papel crucial na prevenção da dengue. Manter a grama cortada, evitar o acúmulo de folhas e limpar regularmente calhas e ralos pode reduzir os locais de reprodução do mosquito e, consequentemente, diminuir o risco de infecção. Ações simples como essas podem fazer uma grande diferença na proteção da saúde da comunidade contra a dengue.</p>
+                    </div>
                 </section>
+
+                <section className={styles.content}>
+                    <div>
+                        <h2 className="title-two">Educação e Conscientização</h2>
+                        <p>Campanhas de educação pública desempenham um papel crucial na prevenção da dengue. Ao informar a população sobre os sintomas da doença, os métodos de prevenção e a importância da eliminação de criadouros, podemos mobilizar a comunidade para agir de forma proativa na luta contra a dengue.</p>
+                        <br />
+                        <p>Além disso, essas campanhas também têm o poder de aumentar a conscientização sobre a gravidade da dengue e seus potenciais impactos na saúde pública. Ao educar as pessoas sobre como identificar os sintomas precocemente e buscar tratamento adequado, podemos reduzir a incidência de casos graves e complicações associadas à doença.</p>
+                        <br />
+                        <p>O engajamento da comunidade é essencial para o sucesso das campanhas de educação pública. Ao envolver líderes locais, escolas, empresas e organizações da sociedade civil, podemos ampliar o alcance das mensagens de prevenção e incentivar a adoção de práticas saudáveis em toda a comunidade. Juntos, podemos criar um ambiente mais consciente e resiliente à propagação da dengue.</p>
+                    </div>
+                </section>
+
+                <section className={styles.identifyVector}>
+                    <div className={styles.identifyVectorContent}>
+                        <h2 className="title-two">Medidas de Proteção Individual</h2>
+                        <p>
+                            Além das medidas de controle do mosquito, é importante que cada indivíduo tome medidas para se proteger contra picadas. Isso inclui usar roupas que cubram a maior parte do corpo, aplicar repelentes de insetos regularmente e instalar telas em portas e janelas para impedir a entrada de mosquitos em ambientes fechados.
+                        </p>
+                        <br />
+                        <p>
+                            Outra medida importante é evitar áreas de alta infestação de mosquitos, especialmente durante o amanhecer e o entardecer, quando esses insetos são mais ativos. Utilizar mosquiteiros em camas e berços também pode ser eficaz, especialmente para proteger bebês e crianças pequenas enquanto dormem.
+                        </p>
+                        <br />
+                        <p>
+                            É essencial que essas práticas de proteção individual sejam adotadas rotineiramente, não apenas durante surtos de dengue, para garantir uma proteção contínua contra picadas de mosquitos e a transmissão de doenças como a dengue, zika e chikungunya. Ao incorporar esses hábitos preventivos em nosso dia a dia, podemos reduzir significativamente o risco de contrair doenças transmitidas por mosquitos.
+                        </p>
+                    </div>
+                    <div className={styles.identifyVectorImage}>
+                        <Image
+                                src="/prevencao/image7.png"
+                                alt="Foto5"
+                                {...ImageAttr}
+                            />
+                    </div>
+                </section>
+                
+                <section className={styles.content}>
+                    <div>
+                        <h2 className="title-two">Prevenção em Áreas Endêmicas</h2>
+                        <p>
+                            Em áreas onde a dengue é endêmica, é necessário implementar estratégias específicas para controlar epidemias e surtos. Isso pode incluir ações de pulverização de inseticidas, distribuição de mosquiteiros e medidas de educação pública direcionadas à comunidade local.
+                        </p>
+                        <br />
+                        <p>
+                            Além dessas medidas, é importante promover a participação ativa da comunidade no controle da dengue. Isso pode ser feito através de programas de capacitação que ensinem os moradores a identificar e eliminar criadouros do mosquito em suas próprias casas e arredores. O envolvimento da população local é fundamental para garantir a eficácia das estratégias de controle e prevenção da dengue, especialmente em áreas onde os recursos são limitados.
+                        </p>
+                        <br />
+                        <p>
+                            Outra medida importante em áreas endêmicas é o fortalecimento dos sistemas de vigilância epidemiológica, permitindo uma detecção precoce de casos de dengue e uma resposta rápida para conter a propagação da doença. Isso pode incluir o estabelecimento de sistemas de monitoramento de casos e a capacitação de profissionais de saúde locais para diagnosticar e tratar a dengue de forma eficaz.
+                        </p>
+                        <br />
+                        <p>
+                            Ao adotar uma abordagem integrada que combine medidas de controle do mosquito, educação pública e fortalecimento dos sistemas de saúde, podemos reduzir significativamente o impacto da dengue em áreas endêmicas e proteger a saúde da população local.
+                        </p>
+                    </div>
+                </section>
+
+                <section className={styles.content}>
+                    <div>
+                        <h2 className="title-two">Monitoramento e Vigilância<br />Epidemiológica</h2>
+                        <p>
+                            O monitoramento contínuo da incidência de dengue é essencial para identificar surtos precocemente e orientar medidas de prevenção e controle. Ao analisar dados epidemiológicos, podemos identificar tendências sazonais, áreas de maior risco e grupos populacionais mais vulneráveis, permitindo uma alocação eficiente de recursos e uma resposta direcionada para reduzir a transmissão da doença. Essa vigilância epidemiológica também possibilita uma avaliação constante da eficácia das intervenções implementadas, garantindo uma abordagem adaptativa e dinâmica no combate à dengue.
+                        </p>
+                    </div>
+                </section>
+
             </main>
             <Footer/>
         </>
