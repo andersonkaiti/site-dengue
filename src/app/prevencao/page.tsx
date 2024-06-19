@@ -57,7 +57,6 @@ export default function Prevencao() {
                         </div>
                     </div>
                 </section>
-
                 <section className={styles.content}>
                     <h2 className="title-two">Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h2>
                     <p>
@@ -68,7 +67,6 @@ export default function Prevencao() {
                         Além disso, promovemos a conscientização sobre a importância da prevenção não apenas como uma medida individual, mas como um esforço coletivo. Ao adotar práticas de prevenção em nossas casas, locais de trabalho e comunidades, podemos reduzir significativamente a transmissão da dengue e proteger os grupos mais vulneráveis, como crianças e idosos. Juntos, podemos criar um ambiente mais saudável e resistente à propagação da doença.   
                     </p>
                 </section>
-
                 <section className={styles.identifyVector}>
                     <div className={styles.identifyVectorContent}>
                         <h2 className="title-two">Identificação dos Vetores</h2>
@@ -82,35 +80,42 @@ export default function Prevencao() {
                     </div>
                     <div className={styles.identifyVectorImage}>
                         <Image
-                                src="/images/15.png"
-                                alt="Foto5"
-                                {...ImageAttr}
-                            />
+                            src="/images/15.png"
+                            alt="Foto5"
+                            {...ImageAttr}
+                        />
                     </div>
                 </section>
-
                 <section className={styles.content}>
                     <div>
                         <h2 className="title-two">Medidas de Controle do Mosquito</h2>
-                            <p>Eliminar os criadouros do mosquito é uma das estratégias mais eficazes de prevenção da dengue. Isso envolve remover recipientes que possam acumular água parada, como pneus, vasos de plantas e recipientes abandonados. Além disso, o uso de repelentes e inseticidas pode ajudar a reduzir a população de mosquitos em áreas propensas à dengue.</p>
+                            <p>
+                                Eliminar os criadouros do mosquito é uma das estratégias mais eficazes de prevenção da dengue. Isso envolve remover recipientes que possam acumular água parada, como pneus, vasos de plantas e recipientes abandonados. Além disso, o uso de repelentes e inseticidas pode ajudar a reduzir a população de mosquitos em áreas propensas à dengue.
+                            </p>
                             <br />
-                            <p>É importante ressaltar que a manutenção regular de áreas ao ar livre, como jardins e quintais, também desempenha um papel crucial na prevenção da dengue. Manter a grama cortada, evitar o acúmulo de folhas e limpar regularmente calhas e ralos pode reduzir os locais de reprodução do mosquito e, consequentemente, diminuir o risco de infecção. Ações simples como essas podem fazer uma grande diferença na proteção da saúde da comunidade contra a dengue.</p>
+                            <p>
+                                É importante ressaltar que a manutenção regular de áreas ao ar livre, como jardins e quintais, também desempenha um papel crucial na prevenção da dengue. Manter a grama cortada, evitar o acúmulo de folhas e limpar regularmente calhas e ralos pode reduzir os locais de reprodução do mosquito e, consequentemente, diminuir o risco de infecção. Ações simples como essas podem fazer uma grande diferença na proteção da saúde da comunidade contra a dengue.
+                            </p>
                     </div>
                 </section>
-
                 <section className={styles.content}>
                     <div>
                         <h2 className="title-two">Educação e Conscientização</h2>
-                        <p>Campanhas de educação pública desempenham um papel crucial na prevenção da dengue. Ao informar a população sobre os sintomas da doença, os métodos de prevenção e a importância da eliminação de criadouros, podemos mobilizar a comunidade para agir de forma proativa na luta contra a dengue.</p>
+                        <p>
+                            Campanhas de educação pública desempenham um papel crucial na prevenção da dengue. Ao informar a população sobre os sintomas da doença, os métodos de prevenção e a importância da eliminação de criadouros, podemos mobilizar a comunidade para agir de forma proativa na luta contra a dengue.
+                        </p>
                         <br />
-                        <p>Além disso, essas campanhas também têm o poder de aumentar a conscientização sobre a gravidade da dengue e seus potenciais impactos na saúde pública. Ao educar as pessoas sobre como identificar os sintomas precocemente e buscar tratamento adequado, podemos reduzir a incidência de casos graves e complicações associadas à doença.</p>
+                        <p>
+                            lém disso, essas campanhas também têm o poder de aumentar a conscientização sobre a gravidade da dengue e seus potenciais impactos na saúde pública. Ao educar as pessoas sobre como identificar os sintomas precocemente e buscar tratamento adequado, podemos reduzir a incidência de casos graves e complicações associadas à doença.
+                        </p>
                         <br />
-                        <p>O engajamento da comunidade é essencial para o sucesso das campanhas de educação pública. Ao envolver líderes locais, escolas, empresas e organizações da sociedade civil, podemos ampliar o alcance das mensagens de prevenção e incentivar a adoção de práticas saudáveis em toda a comunidade. Juntos, podemos criar um ambiente mais consciente e resiliente à propagação da dengue.</p>
+                        <p>
+                            O engajamento da comunidade é essencial para o sucesso das campanhas de educação pública. Ao envolver líderes locais, escolas, empresas e organizações da sociedade civil, podemos ampliar o alcance das mensagens de prevenção e incentivar a adoção de práticas saudáveis em toda a comunidade. Juntos, podemos criar um ambiente mais consciente e resiliente à propagação da dengue.
+                        </p>
                     </div>
                 </section>
-
-                <section className={styles.identifyVector}>
-                    <div className={styles.identifyVectorContent}>
+                <section className={styles.protectionMeasures}>
+                    <div className={styles.protectionMeasuresContent}>
                         <h2 className="title-two">Medidas de Proteção Individual</h2>
                         <p>
                             Além das medidas de controle do mosquito, é importante que cada indivíduo tome medidas para se proteger contra picadas. Isso inclui usar roupas que cubram a maior parte do corpo, aplicar repelentes de insetos regularmente e instalar telas em portas e janelas para impedir a entrada de mosquitos em ambientes fechados.
@@ -124,15 +129,14 @@ export default function Prevencao() {
                             É essencial que essas práticas de proteção individual sejam adotadas rotineiramente, não apenas durante surtos de dengue, para garantir uma proteção contínua contra picadas de mosquitos e a transmissão de doenças como a dengue, zika e chikungunya. Ao incorporar esses hábitos preventivos em nosso dia a dia, podemos reduzir significativamente o risco de contrair doenças transmitidas por mosquitos.
                         </p>
                     </div>
-                    <div className={styles.identifyVectorImage}>
+                    <div className={styles.protectionMeasuresImage}>
                         <Image
-                                src="/prevencao/image7.png"
-                                alt="Foto5"
-                                {...ImageAttr}
-                            />
+                            src="/prevencao/image7.png"
+                            alt="Foto5"
+                            {...ImageAttr}
+                        />
                     </div>
                 </section>
-                
                 <section className={styles.content}>
                     <div>
                         <h2 className="title-two">Prevenção em Áreas Endêmicas</h2>
@@ -153,7 +157,6 @@ export default function Prevencao() {
                         </p>
                     </div>
                 </section>
-
                 <section className={styles.content}>
                     <div>
                         <h2 className="title-two">Monitoramento e Vigilância<br />Epidemiológica</h2>
@@ -162,7 +165,6 @@ export default function Prevencao() {
                         </p>
                     </div>
                 </section>
-
             </main>
             <Footer/>
         </>

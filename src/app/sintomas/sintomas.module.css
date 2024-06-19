@@ -164,13 +164,13 @@
         grid-template-rows: auto auto;
     }
 
-    .dengueEvolutionImage {
-        height: 200px;
+    .dengueEvolutionImage,
+    .dengueTreatImage {
+        height: 300px;
     }
 
     .dengueTreatImage {
         order: 2;
-        height: 400px;
     }
 
     .list li {
