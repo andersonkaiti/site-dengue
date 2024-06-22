@@ -16,7 +16,8 @@
   --grey: #5A5A5A;
 }
 
-.title {
+.title-one,
+.title-two {
   background: linear-gradient(to bottom, var(--blue1), var(--blue2));
   -webkit-background-clip: text;
   background-clip: text;
@@ -26,7 +27,12 @@
   margin-bottom: 1em;
 }
 
-.title {
+.title-one {
+  font-size: 3em;
+  text-align: start;
+}
+
+.title-two {
   font-size: 2em;
 }
 
@@ -39,6 +45,10 @@ main {
 
 .content {
   @apply mt-20;
+}
+
+.content:last-child {
+  @apply mb-20;
 }
 
 .content p {
@@ -81,8 +91,10 @@ footer > p {
     @apply py-12 px-8;
   }
 
-  .title {
+  .title-one,
+  .title-two {
     font-size: 1.5em;
+    text-align: center
   }
 
   footer {

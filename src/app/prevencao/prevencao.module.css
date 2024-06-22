@@ -30,11 +30,6 @@
     align-items: stretch;
 }
 
-.contentPairText > p {
-    color: #412D6F;
-    font-weight: 400;
-}
-
 .contentPairImage {
     position: relative;
     height: 100%;
