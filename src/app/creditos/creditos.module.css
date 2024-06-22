@@ -11,7 +11,6 @@
 .creditsContentText,
 .creditsContentImage {
     flex: 1;
-    position: relative;
 }
 
 .creditsContentOne .creditsContentText {
@@ -60,17 +59,11 @@
 
 @media screen and (max-width: 1010px) {
     .creditsContent {
-        width: 100%;
         height: auto;
     }
 
     .creditsContentImage {
         display: none;
-    }
-
-    .creditsContentText {
-        height: 100%;
-        width: 100%;
     }
 
     .creditsContentLogo {
@@ -79,14 +72,12 @@
 }
 
 @media screen and (max-width: 580px) {
-    .content,
     .creditsContentText {
-        padding: 0;
-        @apply py-8 mx-8
+        @apply py-0 mx-8;
     }
 
     .creditsContentOne .creditsContentText {
-        padding: 0em;
+        padding: 0;
     }
 
     .creditsContentText p {

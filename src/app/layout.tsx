@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import "aos/dist/aos.css";
 import Header from "@/components/header/header";
 import ScrollToTopButton from "@/components/scroll-to-top/scroll-to-top";
 import Animation from "@/components/animation/animation";

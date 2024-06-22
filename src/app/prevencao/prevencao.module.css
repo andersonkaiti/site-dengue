@@ -53,9 +53,7 @@
     .contentPairImage {
         height: 300px;
     }
-}
-
-@media screen and (max-width: 520px) {
+    
     .gallery {
         height: 280px;
     }

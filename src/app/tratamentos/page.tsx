@@ -2,7 +2,6 @@ import Footer from "@/components/footer/footer";
 import Image from "next/image";
 import { ImageAttr } from "@/utils/util";
 import styles from "./tratamentos.module.css";
-import "aos/dist/aos.css";
 import { animationLeft, animationRight } from "@/utils/util";
 
 export default function Tratamentos() {
