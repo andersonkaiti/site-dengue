@@ -34,6 +34,7 @@ main {
   @apply py-12 px-16 mx-auto;
   max-width: 1400px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .content {
