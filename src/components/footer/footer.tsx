@@ -72,7 +72,7 @@ export default function Footer() {
                             src="/icons/twitter.svg"
                             width="40"
                             height="40"
-                            alt="Twiiter"
+                            alt="Twitter"
                         />
                         <Image
                             src="/icons/facebook.svg"

@@ -46,7 +46,6 @@
     font-weight: bold
 }
 
-.content,
 .support {
     @apply py-12 mx-16;
 }

@@ -5,40 +5,28 @@
 }
 
 .galleryImage {
-    width: 50%;
+    flex: 1;
     position: relative;
 }
 
-.section:nth-child(1) > .gallery > .galleryImage:nth-child(2) {
+.galleryImage img {
+    border-radius: 30px;
+}
+
+.gallery:first-child > .galleryImage:nth-child(2) {
     top: -2em;
 }
 
-.section {
-    margin-top: 5em;
-    width: 100%;
-    line-height: 31.5px;
-    text-align: justify;
-}
-
-.section:nth-child(1) {
-    margin-top: 0;
-}
-
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 820px) {
     .gallery {
         height: 200px;
     }
     
     .galleryImage:nth-child(1) {
         display: inline-block;
-        width: 100%;
     }
 
     .galleryImage {
         display: none;
-    }
-
-    .section {
-        margin-top: 2em;
     }
 }

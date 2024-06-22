@@ -1,13 +1,13 @@
 import styles from "./button.module.css";
 
 type ButtonType = {
-    content: string;
+    children: string;
 }
 
-export default function Button({ content }: ButtonType) {
+export default function Button({ children }: ButtonType) {
     return (
         <button className={styles.button}>
-            {content}
+            {children}
         </button>
     );
 }    
