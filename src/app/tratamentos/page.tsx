@@ -1,19 +1,16 @@
 import Footer from "@/components/footer/footer";
-import styles from "./tratamentos.module.css";
 import Image from "next/image";
+import { ImageAttr } from "@/utils/util";
+import styles from "./tratamentos.module.css";
 import "aos/dist/aos.css";
-
-const ImageAttr = {
-    fill: true,
-    objectFit: "cover"
-}
+import { animationLeft, animationRight } from "@/utils/util";
 
 export default function Tratamentos() {
     return (
         <>
             <main>
-                <h1 className="title-two" data-aos="fade-left" data-aos-once="true">Conheça os Tratamentos e Proteja Sua Saúde!</h1>
-                <section className={`${styles.gallery} ${styles.banner}`} data-aos="fade-left" data-aos-once="true">
+                <h1 className="title-two" {...animationLeft}>Conheça os Tratamentos e Proteja Sua Saúde!</h1>
+                <section className={`${styles.gallery} ${styles.banner}`} {...animationLeft}>
                     <div className={styles.verticalGallery}>
                         <div className={styles.galleryImage}>
                             <Image
@@ -40,7 +37,7 @@ export default function Tratamentos() {
                         </div>
                     </div>
                 </section>
-                <section className="content" data-aos="fade-right" data-aos-once="true">
+                <section className="content" {...animationRight}>
                     <h1 className="title-two">Tratamentos</h1>
                     <p>
                         A dengue é uma doença séria que requer atenção imediata. Iniciar o tratamento precocemente é crucial para minimizar complicações e garantir uma recuperação mais rápida. Nosso objetivo é fornecer informações claras e detalhadas para ajudar você a entender os diferentes aspectos do tratamento da dengue.
@@ -52,7 +49,7 @@ export default function Tratamentos() {
                         Estamos comprometidos em ser uma fonte confiável de informação, colaborando com profissionais de saúde e usando tecnologia para disponibilizar recursos úteis e acessíveis para toda a comunidade. Juntos, podemos combater a dengue de maneira mais eficaz e proteger a saúde de todos.
                     </p>
                 </section>
-                <section className={`${styles.contentPair} content`} data-aos="fade-left" data-aos-once="true">
+                <section className={`${styles.contentPair} content`} {...animationLeft}>
                     <div className={styles.contentPairText}>
                         <h1 className="title-two">Identificação dos sintomas</h1>
                         <p>
@@ -73,7 +70,7 @@ export default function Tratamentos() {
                         />
                     </div>
                 </section>
-                <section className="content" data-aos="fade-right" data-aos-once="true">
+                <section className="content" {...animationRight}>
                     <h1 className="title-two">Tratamentos de casos leves</h1>
                     <p>
                         Para casos leves de dengue, o tratamento é baseado em repouso, hidratação oral e uso de medicamentos para aliviar a febre e as dores. É essencial evitar anti-inflamatórios, como o ibuprofeno, que podem agravar o quadro.
@@ -88,7 +85,7 @@ export default function Tratamentos() {
                         O acompanhamento regular de um profissional de saúde é fundamental, mesmo em casos leves, para monitorar o progresso da doença e ajustar as orientações conforme necessário. Fique atento a qualquer mudança nos sintomas e, em caso de piora, procure assistência médica imediatamente.
                     </p>
                 </section>  
-                <div className="content" data-aos="fade-left" data-aos-once="true">
+                <div className="content" {...animationLeft}>
                     <h1 className="title-two">
                         Tratamentos de casos graves
                         <br />
@@ -101,7 +98,7 @@ export default function Tratamentos() {
                         A monitorização constante dos sinais vitais é crucial para a sobrevivência, garantindo o manejo de complicações como desidratação, sangramentos graves e falência de órgãos. Equipes médicas especializadas cuidam de intervenções críticas e suporte nutricional, adaptando o tratamento às necessidades individuais de cada paciente. A cooperação e comunicação entre profissionais de saúde e familiares são essenciais para a recuperação do paciente.
                     </p>
                 </div>
-                <section className="content" data-aos="fade-right" data-aos-once="true">
+                <section className="content" {...animationRight}>
                     <h1 className="title-two">Medicações Indicadas e Contraindicadas</h1>
                     <p>
                         O uso de medicamentos deve ser cuidadosamente monitorado. Paracetamol pode ser usado para controlar a febre e aliviar as dores, pois é seguro e eficaz no contexto da dengue. Enquanto isso, anti-inflamatórios como ibuprofeno e aspirina devem ser evitados devido ao risco de sangramentos e complicações hemorrágicas, comuns na dengue.
@@ -140,7 +137,7 @@ export default function Tratamentos() {
                         </div>
                     </section>
                 </section>  
-                <section className="content" data-aos="fade-left" data-aos-once="true">
+                <section className="content" {...animationLeft}>
                     <h1 className="title-two">Recuperação e Cuidados Pós-Tratamento</h1>
                     <p>
                         Durante esse período, é importante continuar com a hidratação, manter uma dieta equilibrada e evitar atividades físicas intensas até a completa recuperação. A dengue pode deixar o corpo enfraquecido, portanto, é essencial fornecer os nutrientes necessários para fortalecer o sistema imunológico e acelerar o processo de recuperação. Além disso, é fundamental evitar o consumo de álcool e cigarros, pois podem prejudicar ainda mais a saúde e retardar a recuperação. Se os sintomas persistirem ou piorarem durante o período de recuperação, é importante buscar orientação médica para garantir que não haja complicações adicionais.

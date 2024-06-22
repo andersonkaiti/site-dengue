@@ -1,18 +1,15 @@
 import Footer from "@/components/footer/footer";
 import Image from "next/image";
+import { ImageAttr } from "@/utils/util";
 import styles from "./prevencao.module.css";
 import "aos/dist/aos.css";
-
-const ImageAttr = {
-    fill: true,
-    objectFit: "cover"
-}
+import { animationLeft, animationRight } from "@/utils/util";
 
 export default function Prevencao() {
     return (
         <>
             <main>
-                <section className={styles.gallery}>
+                <section className={styles.gallery} {...animationLeft}>
                     <div className={styles.verticalGallery}>
                         <div className={styles.galleryImage}>
                             <Image
@@ -55,7 +52,7 @@ export default function Prevencao() {
                         </div>
                     </div>
                 </section>
-                <section className="content" data-aos="fade-left" data-aos-once="true">
+                <section className="content" {...animationRight}>
                     <h1 className="title-two">Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h1>
                     <p>
                         A prevenção da dengue é fundamental para reduzir a incidência da doença e proteger a saúde da comunidade. Nesta seção, exploramos estratégias eficazes para evitar a proliferação do mosquito transmissor e minimizar os riscos de infecção. Nosso objetivo é capacitar as pessoas com conhecimento e recursos para se protegerem e contribuírem para um ambiente mais seguro.
@@ -64,7 +61,7 @@ export default function Prevencao() {
                         Além disso, promovemos a conscientização sobre a importância da prevenção não apenas como uma medida individual, mas como um esforço coletivo. Ao adotar práticas de prevenção em nossas casas, locais de trabalho e comunidades, podemos reduzir significativamente a transmissão da dengue e proteger os grupos mais vulneráveis, como crianças e idosos. Juntos, podemos criar um ambiente mais saudável e resistente à propagação da doença.   
                     </p>
                 </section>
-                <section className={`${styles.contentPair} content`} data-aos="fade-right" data-aos-once="true">
+                <section className={`${styles.contentPair} content`} {...animationLeft}>
                     <div className={styles.contentPairText}>
                         <h1 className="title-two">Identificação dos Vetores</h1>
                         <p>
@@ -82,7 +79,7 @@ export default function Prevencao() {
                         />
                     </div>
                 </section>
-                <section className="content" data-aos="fade-left" data-aos-once="true">
+                <section className="content" {...animationRight}>
                     <h1 className="title-two">Medidas de Controle do Mosquito</h1>
                     <p>
                         Eliminar os criadouros do mosquito é uma das estratégias mais eficazes de prevenção da dengue. Isso envolve remover recipientes que possam acumular água parada, como pneus, vasos de plantas e recipientes abandonados. Além disso, o uso de repelentes e inseticidas pode ajudar a reduzir a população de mosquitos em áreas propensas à dengue.
@@ -91,7 +88,7 @@ export default function Prevencao() {
                         É importante ressaltar que a manutenção regular de áreas ao ar livre, como jardins e quintais, também desempenha um papel crucial na prevenção da dengue. Manter a grama cortada, evitar o acúmulo de folhas e limpar regularmente calhas e ralos pode reduzir os locais de reprodução do mosquito e, consequentemente, diminuir o risco de infecção. Ações simples como essas podem fazer uma grande diferença na proteção da saúde da comunidade contra a dengue.
                     </p>
                 </section>
-                <section className="content" data-aos="fade-right" data-aos-once="true">
+                <section className="content" {...animationLeft}>
                     <h1 className="title-two">Educação e Conscientização</h1>
                     <p>
                         Campanhas de educação pública desempenham um papel crucial na prevenção da dengue. Ao informar a população sobre os sintomas da doença, os métodos de prevenção e a importância da eliminação de criadouros, podemos mobilizar a comunidade para agir de forma proativa na luta contra a dengue.
@@ -103,7 +100,7 @@ export default function Prevencao() {
                         O engajamento da comunidade é essencial para o sucesso das campanhas de educação pública. Ao envolver líderes locais, escolas, empresas e organizações da sociedade civil, podemos ampliar o alcance das mensagens de prevenção e incentivar a adoção de práticas saudáveis em toda a comunidade. Juntos, podemos criar um ambiente mais consciente e resiliente à propagação da dengue.
                     </p>
                 </section>
-                <section className={`${styles.contentPair} content`} data-aos="fade-left" data-aos-once="true">
+                <section className={`${styles.contentPair} content`} {...animationRight}>
                     <div className={styles.contentPairText}>
                         <h1 className="title-two">Medidas de Proteção Individual</h1>
                         <p>
@@ -124,7 +121,7 @@ export default function Prevencao() {
                         />
                     </div>
                 </section>
-                <section className="content" data-aos="fade-right" data-aos-once="true">
+                <section className="content" {...animationLeft}>
                     <h1 className="title-two">Prevenção em Áreas Endêmicas</h1>
                     <p>
                         Em áreas onde a dengue é endêmica, é necessário implementar estratégias específicas para controlar epidemias e surtos. Isso pode incluir ações de pulverização de inseticidas, distribuição de mosquiteiros e medidas de educação pública direcionadas à comunidade local.
@@ -139,7 +136,7 @@ export default function Prevencao() {
                         Ao adotar uma abordagem integrada que combine medidas de controle do mosquito, educação pública e fortalecimento dos sistemas de saúde, podemos reduzir significativamente o impacto da dengue em áreas endêmicas e proteger a saúde da população local.
                     </p>
                 </section>
-                <section className="content" data-aos="fade-left" data-aos-once="true">
+                <section className="content" {...animationRight}>
                     <h1 className="title-two">Monitoramento e Vigilância<br />Epidemiológica</h1>
                     <p>
                         O monitoramento contínuo da incidência de dengue é essencial para identificar surtos precocemente e orientar medidas de prevenção e controle. Ao analisar dados epidemiológicos, podemos identificar tendências sazonais, áreas de maior risco e grupos populacionais mais vulneráveis, permitindo uma alocação eficiente de recursos e uma resposta direcionada para reduzir a transmissão da doença. Essa vigilância epidemiológica também possibilita uma avaliação constante da eficácia das intervenções implementadas, garantindo uma abordagem adaptativa e dinâmica no combate à dengue.
