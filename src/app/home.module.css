@@ -1,0 +1,92 @@
+.contentPair {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+}
+
+.dengueAttacksContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.dengueAttacksImage {
+    display: flex;
+    gap: 1em;
+    height: 400px;
+}
+
+.dengueAttacksImage .galleryImage:first-child {
+    position: relative;
+    top: -4em;
+}
+
+.dengueAttacksImage .galleryImage:last-child {
+    position: relative;
+    top: 4em;
+}
+
+.gallery {
+    display: flex;
+    gap: 1em;
+    height: 400px;
+}
+
+.verticalGallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 1em;
+}
+
+.verticalGallery > .galleryImage {
+    flex: 2;
+}
+
+.horizontalGallery {
+    display: flex;
+    gap: 1em;
+    flex: 1;
+}
+
+.galleryImage,
+.contentPairImage {
+    position: relative;
+    flex: 1;
+}
+
+.galleryImage img,
+.contentPairImage img {
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 850px) {
+    .contentPair {
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+    }
+
+    .contentPair:first-child {
+        gap: 0;
+    }
+
+    .contentPairImage {
+        height: 400px;
+    }
+
+    .verticalGallery > .galleryImage ~ * {
+        display: none;
+    }
+
+    .dengueAttacksImage .galleryImage:first-child {
+        top: 0;
+    }
+
+    .dengueAttacksImage .galleryImage:last-child {
+        display: none;
+    }
+}

@@ -5,6 +5,7 @@
     border-radius: 40px;
     box-shadow: 0px 4px 4px 0px #00000040;
     transition: .5s box-shadow;
+    font-size: 1.2em;
 }
 
 .button:hover {

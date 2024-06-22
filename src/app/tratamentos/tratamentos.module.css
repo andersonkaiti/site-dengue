@@ -1,8 +1,4 @@
-.content {
-    margin-top: 5em;
-}
-
-.identifySymptons {
+.contentPair {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
@@ -11,11 +7,11 @@
     align-items: stretch;
 }
 
-.identifySymptonsImage {
+.contentPairImage {
     position: relative;
 }
 
-.identifySymptons p:last-child {
+.contentPairText p:last-child {
     color: var(--blue1);
 }
 
@@ -34,8 +30,7 @@
 
 .galleryImage {
     position: relative;
-    height: 100%;
-    width: 100%;
+    flex: 1;
 }
 
 .gallery:last-child {
@@ -43,8 +38,8 @@
 }
 
 .galleryImage img,
-.identifySymptonsImage img {
-    border-radius: 10px;
+.contentPairImage img {
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -56,21 +51,17 @@
         display: none;
     }
     
-    .identifySymptons {
+    .contentPair {
         grid-template-columns: none;
         grid-template-rows: auto auto;
     }
 
-    .identifySymptonsImage {
+    .contentPairImage {
         height: 400px;
     }
 }
 
 @media screen and (max-width: 520px) {
-    .content {
-        margin-top: 2em;
-    }
-
     .gallery:last-child {
         margin-top: 2em;
         height: 200px;
