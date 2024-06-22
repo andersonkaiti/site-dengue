@@ -12,7 +12,7 @@ export default function Tratamentos() {
     return (
         <>
             <main>
-                <h1 className="title" data-aos="fade-left" data-aos-once="true">Conheça os Tratamentos e Proteja Sua Saúde!</h1>
+                <h1 className="title-two" data-aos="fade-left" data-aos-once="true">Conheça os Tratamentos e Proteja Sua Saúde!</h1>
                 <section className={`${styles.gallery} ${styles.banner}`} data-aos="fade-left" data-aos-once="true">
                     <div className={styles.verticalGallery}>
                         <div className={styles.galleryImage}>
@@ -22,7 +22,7 @@ export default function Tratamentos() {
                                 {...ImageAttr}
                             />
                         </div>
-                        <h2 className="title">
+                        <h2 className="title-two">
                             Tratamento precoce,
                             <br />
                             esperança renovada:
@@ -41,7 +41,7 @@ export default function Tratamentos() {
                     </div>
                 </section>
                 <section className="content" data-aos="fade-right" data-aos-once="true">
-                    <h1 className="title">Tratamentos</h1>
+                    <h1 className="title-two">Tratamentos</h1>
                     <p>
                         A dengue é uma doença séria que requer atenção imediata. Iniciar o tratamento precocemente é crucial para minimizar complicações e garantir uma recuperação mais rápida. Nosso objetivo é fornecer informações claras e detalhadas para ajudar você a entender os diferentes aspectos do tratamento da dengue.
                     </p>
@@ -54,7 +54,7 @@ export default function Tratamentos() {
                 </section>
                 <section className={`${styles.contentPair} content`} data-aos="fade-left" data-aos-once="true">
                     <div className={styles.contentPairText}>
-                        <h1 className="title">Identificação dos sintomas</h1>
+                        <h1 className="title-two">Identificação dos sintomas</h1>
                         <p>
                             Reconhecer os sintomas da dengue é o primeiro passo para buscar tratamento. Os sintomas iniciais incluem febre alta, dores de cabeça, dores atrás dos olhos, nas articulações e nos músculos. Fique atento a sinais de alerta como sangramentos, dor abdominal intensa e vômitos persistentes.
                         </p>
@@ -74,7 +74,7 @@ export default function Tratamentos() {
                     </div>
                 </section>
                 <section className="content" data-aos="fade-right" data-aos-once="true">
-                    <h1 className="title">Tratamentos de casos leves</h1>
+                    <h1 className="title-two">Tratamentos de casos leves</h1>
                     <p>
                         Para casos leves de dengue, o tratamento é baseado em repouso, hidratação oral e uso de medicamentos para aliviar a febre e as dores. É essencial evitar anti-inflamatórios, como o ibuprofeno, que podem agravar o quadro.
                     </p>
@@ -89,7 +89,7 @@ export default function Tratamentos() {
                     </p>
                 </section>  
                 <div className="content" data-aos="fade-left" data-aos-once="true">
-                    <h1 className="title">
+                    <h1 className="title-two">
                         Tratamentos de casos graves
                         <br />
                         (Dengue Hemorrágica)
@@ -102,7 +102,7 @@ export default function Tratamentos() {
                     </p>
                 </div>
                 <section className="content" data-aos="fade-right" data-aos-once="true">
-                    <h1 className="title">Medicações Indicadas e Contraindicadas</h1>
+                    <h1 className="title-two">Medicações Indicadas e Contraindicadas</h1>
                     <p>
                         O uso de medicamentos deve ser cuidadosamente monitorado. Paracetamol pode ser usado para controlar a febre e aliviar as dores, pois é seguro e eficaz no contexto da dengue. Enquanto isso, anti-inflamatórios como ibuprofeno e aspirina devem ser evitados devido ao risco de sangramentos e complicações hemorrágicas, comuns na dengue.
                     </p>
@@ -141,7 +141,7 @@ export default function Tratamentos() {
                     </section>
                 </section>  
                 <section className="content" data-aos="fade-left" data-aos-once="true">
-                    <h1 className="title">Recuperação e Cuidados Pós-Tratamento</h1>
+                    <h1 className="title-two">Recuperação e Cuidados Pós-Tratamento</h1>
                     <p>
                         Durante esse período, é importante continuar com a hidratação, manter uma dieta equilibrada e evitar atividades físicas intensas até a completa recuperação. A dengue pode deixar o corpo enfraquecido, portanto, é essencial fornecer os nutrientes necessários para fortalecer o sistema imunológico e acelerar o processo de recuperação. Além disso, é fundamental evitar o consumo de álcool e cigarros, pois podem prejudicar ainda mais a saúde e retardar a recuperação. Se os sintomas persistirem ou piorarem durante o período de recuperação, é importante buscar orientação médica para garantir que não haja complicações adicionais.
                     </p>

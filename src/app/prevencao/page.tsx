@@ -56,7 +56,7 @@ export default function Prevencao() {
                     </div>
                 </section>
                 <section className="content" data-aos="fade-left" data-aos-once="true">
-                    <h1 className="title">Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h1>
+                    <h1 className="title-two">Prevenir é proteger, a saúde é uma <br />responsabilidade de todos!</h1>
                     <p>
                         A prevenção da dengue é fundamental para reduzir a incidência da doença e proteger a saúde da comunidade. Nesta seção, exploramos estratégias eficazes para evitar a proliferação do mosquito transmissor e minimizar os riscos de infecção. Nosso objetivo é capacitar as pessoas com conhecimento e recursos para se protegerem e contribuírem para um ambiente mais seguro.
                     </p>
@@ -66,7 +66,7 @@ export default function Prevencao() {
                 </section>
                 <section className={`${styles.contentPair} content`} data-aos="fade-right" data-aos-once="true">
                     <div className={styles.contentPairText}>
-                        <h1 className="title">Identificação dos Vetores</h1>
+                        <h1 className="title-two">Identificação dos Vetores</h1>
                         <p>
                             O mosquito Aedes aegypti é o principal vetor da dengue. Pequeno e escuro, ele se reproduz em água parada e é comumente encontrado em áreas urbanas. Conhecer seus hábitos de reprodução e os locais onde ele se prolifera é essencial para implementar medidas eficazes de controle.
                         </p>
@@ -83,7 +83,7 @@ export default function Prevencao() {
                     </div>
                 </section>
                 <section className="content" data-aos="fade-left" data-aos-once="true">
-                    <h1 className="title">Medidas de Controle do Mosquito</h1>
+                    <h1 className="title-two">Medidas de Controle do Mosquito</h1>
                     <p>
                         Eliminar os criadouros do mosquito é uma das estratégias mais eficazes de prevenção da dengue. Isso envolve remover recipientes que possam acumular água parada, como pneus, vasos de plantas e recipientes abandonados. Além disso, o uso de repelentes e inseticidas pode ajudar a reduzir a população de mosquitos em áreas propensas à dengue.
                     </p>
@@ -92,7 +92,7 @@ export default function Prevencao() {
                     </p>
                 </section>
                 <section className="content" data-aos="fade-right" data-aos-once="true">
-                    <h1 className="title">Educação e Conscientização</h1>
+                    <h1 className="title-two">Educação e Conscientização</h1>
                     <p>
                         Campanhas de educação pública desempenham um papel crucial na prevenção da dengue. Ao informar a população sobre os sintomas da doença, os métodos de prevenção e a importância da eliminação de criadouros, podemos mobilizar a comunidade para agir de forma proativa na luta contra a dengue.
                     </p>
@@ -105,7 +105,7 @@ export default function Prevencao() {
                 </section>
                 <section className={`${styles.contentPair} content`} data-aos="fade-left" data-aos-once="true">
                     <div className={styles.contentPairText}>
-                        <h1 className="title">Medidas de Proteção Individual</h1>
+                        <h1 className="title-two">Medidas de Proteção Individual</h1>
                         <p>
                             Além das medidas de controle do mosquito, é importante que cada indivíduo tome medidas para se proteger contra picadas. Isso inclui usar roupas que cubram a maior parte do corpo, aplicar repelentes de insetos regularmente e instalar telas em portas e janelas para impedir a entrada de mosquitos em ambientes fechados.
                         </p>
@@ -125,7 +125,7 @@ export default function Prevencao() {
                     </div>
                 </section>
                 <section className="content" data-aos="fade-right" data-aos-once="true">
-                    <h1 className="title">Prevenção em Áreas Endêmicas</h1>
+                    <h1 className="title-two">Prevenção em Áreas Endêmicas</h1>
                     <p>
                         Em áreas onde a dengue é endêmica, é necessário implementar estratégias específicas para controlar epidemias e surtos. Isso pode incluir ações de pulverização de inseticidas, distribuição de mosquiteiros e medidas de educação pública direcionadas à comunidade local.
                     </p>
@@ -140,7 +140,7 @@ export default function Prevencao() {
                     </p>
                 </section>
                 <section className="content" data-aos="fade-left" data-aos-once="true">
-                    <h1 className="title">Monitoramento e Vigilância<br />Epidemiológica</h1>
+                    <h1 className="title-two">Monitoramento e Vigilância<br />Epidemiológica</h1>
                     <p>
                         O monitoramento contínuo da incidência de dengue é essencial para identificar surtos precocemente e orientar medidas de prevenção e controle. Ao analisar dados epidemiológicos, podemos identificar tendências sazonais, áreas de maior risco e grupos populacionais mais vulneráveis, permitindo uma alocação eficiente de recursos e uma resposta direcionada para reduzir a transmissão da doença. Essa vigilância epidemiológica também possibilita uma avaliação constante da eficácia das intervenções implementadas, garantindo uma abordagem adaptativa e dinâmica no combate à dengue.
                     </p>

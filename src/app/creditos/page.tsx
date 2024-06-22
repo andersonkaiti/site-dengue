@@ -13,7 +13,7 @@ export default function Creditos() {
         <div className={styles.creditosWrapper}>
             <section className={`${styles.creditsContent} ${styles.creditsContentOne}`} data-aos="fade-left" data-aos-once="true">
                 <div className={styles.creditsContentText}>
-                    <h1 className="title">FÁBRICA DE SOFTWARE: DESENVOLVIMENTO DE WEBSITES, APLICATIVOS E JOGOS</h1>
+                    <h1 className="title-two">FÁBRICA DE SOFTWARE: DESENVOLVIMENTO DE WEBSITES, APLICATIVOS E JOGOS</h1>
                     <p>Professor Coordenador: Prof. Dr. Elvio Gilberto da Silva</p>
                     <div className={styles.creditsContentLogo}>
                         <Image
@@ -34,7 +34,7 @@ export default function Creditos() {
             </section>
             <main data-aos="fade-right" data-aos-once="true">
                 <section className="content">
-                    <h1 className="title">Nossa Missão</h1>
+                    <h1 className="title-two">Nossa Missão</h1>
                     <p>
                         O site informativo sobre a dengue, um projeto de extensão do curso de Ciências da Computação da Universidade UNISAGRADO, tem como missão promover a conscientização e a educação da população sobre a prevenção e o combate à dengue. Através de uma plataforma acessível e interativa, buscamos disseminar informações precisas e atualizadas sobre os sintomas, tratamento e medidas preventivas contra a dengue, além de incentivar a participação ativa da comunidade na luta contra essa doença.
                     </p>
@@ -49,7 +49,7 @@ export default function Creditos() {
                     />
                 </div>
                 <div className={`${styles.creditsContentText} content`}>
-                    <h1 className="title">Integrantes da Equipe</h1>
+                    <h1 className="title-two">Integrantes da Equipe</h1>
                     <p>Anderson Kaiti</p>
                     <p>Guilherme Padilha de Marchi</p>
                     <p>Leandro Brosco Camanforte</p>
@@ -59,7 +59,7 @@ export default function Creditos() {
                 </div>
             </section>
             <section className="content" data-aos="fade-right" data-aos-once="true">
-                <h1 className="title">Desenvolvimento</h1>
+                <h1 className="title-two">Desenvolvimento</h1>
                 <div className={styles.creditsContentLogo}>
                     <Image
                         alt="Ciência da Computação"
@@ -70,7 +70,7 @@ export default function Creditos() {
                 </div>
             </section>
             <section className={`${styles.support} content`} data-aos="fade-left" data-aos-once="true">
-                <h1 className="title">Apoio</h1>
+                <h1 className="title-two">Apoio</h1>
                 <p>José Augusto Magalhães – Coordenador de Extensão</p>
                 <div className={styles.creditsContentLogo}>
                     <Image

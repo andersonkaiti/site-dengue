@@ -7,6 +7,15 @@
     align-items: stretch;
 }
 
+.contentPair:first-child {
+    gap: 8em;
+    margin-bottom: 5em;
+}
+
+.contentPair:nth-child(2) {
+    margin-bottom: 1em;
+}
+
 .dengueAttacksContent {
     display: flex;
     flex-direction: column;
@@ -21,18 +30,17 @@
 
 .dengueAttacksImage .galleryImage:first-child {
     position: relative;
-    top: -4em;
+    top: -2em;
 }
 
 .dengueAttacksImage .galleryImage:last-child {
     position: relative;
-    top: 4em;
+    top: 2em;
 }
 
 .gallery {
     display: flex;
     gap: 1em;
-    height: 400px;
 }
 
 .verticalGallery {
@@ -59,12 +67,57 @@
     flex: 1;
 }
 
+.contentPairImage {
+    min-height: 300px;
+}
+
 .galleryImage img,
 .contentPairImage img {
     border-radius: 30px;
 }
 
-@media screen and (max-width: 850px) {
+.emphasis {
+    background: linear-gradient(to top, #458AF1, #0940CC);
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.emphasisTitle {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.charges {
+    display: flex;
+    gap: 2em;
+}
+
+.charge {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.charge h1 {
+    font-weight: bold;
+}
+
+.charge h1,
+.charge p {
+    text-align: center;
+}
+
+.chargeImage {
+    height: 100px;
+    position: relative;
+}
+
+@media screen and (max-width: 1000px) {
     .contentPair {
         grid-template-columns: none;
         grid-template-rows: auto auto;
@@ -72,10 +125,13 @@
 
     .contentPair:first-child {
         gap: 0;
+        margin-bottom: 0;
     }
+}
 
-    .contentPairImage {
-        height: 400px;
+@media screen and (max-width: 850px) {
+    .gallery {
+        height: 200px;
     }
 
     .verticalGallery > .galleryImage ~ * {
@@ -88,5 +144,9 @@
 
     .dengueAttacksImage .galleryImage:last-child {
         display: none;
+    }
+
+    .charges {
+        flex-direction: column;
     }
 }

@@ -43,14 +43,14 @@ export default function Sintomas() {
                     </div> 
                 </section>
                 <section className="content" data-aos="fade-left" data-aos-once="true">
-                    <h1 className="title">Como a Dengue ataca o corpo?</h1>
+                    <h1 className="title-two">Como a Dengue ataca o corpo?</h1>
                     <p>
                         A Organização Mundial da Saúde (OMS) considera a dengue como a doença mais prevalente transmitida por mosquitos. A dengue hemorrágica é uma forma grave da doença, cujas infecções aumentaram mais de 10 vezes globalmente nos últimos 50 anos. O sistema imunológico desenvolve imunidade específica para cada tipo de dengue, permitindo múltiplas infecções, podendo uma pessoa contrair a doença até quatro vezes. Infecções subsequentes tendem a ser mais severas. A transmissão ocorre quando um mosquito pica uma pessoa infectada, permitindo que o vírus se multiplique em seu corpo por cerca de 12 dias antes de ser transmitido a outra pessoa saudável através da picada do mosquito.
                     </p>
                 </section>
                 <section className={`${styles.contentPair} content`} data-aos="fade-right" data-aos-once="true">
                     <div className={styles.contentPairText}>
-                        <h1 className="title">Evolução da dengue</h1>
+                        <h1 className="title-two">Evolução da dengue</h1>
                         <p>
                             O curso da dengue é imprevisível e piora rapidamente. Os sintomas da dengue começam com uma febre alta que dura de 4 a 7 dias. O paciente sentirá fortes dores de cabeça, dores nas articulações, náuseas, fadiga, perda de apetite. Estes são os sintomas da dengue leve.
                         </p>
@@ -75,7 +75,7 @@ export default function Sintomas() {
                         />
                     </div>
                     <div className={styles.contentPairTexto}>
-                        <h1 className="title">Como tratar a dengue</h1>
+                        <h1 className="title-two">Como tratar a dengue</h1>
                         <p>
                             A dengue deixa o corpo do paciente exausto, então o paciente precisa descansar, comer bem, beber muita água, tomar mais vitaminas para melhorar o sistema imunológico. A maioria dos pacientes com dengue morreu por motivos subjetivos, indo ao hospital quando sua condição piorava.
                         </p>
@@ -86,7 +86,7 @@ export default function Sintomas() {
                     </div>
                 </section>
                 <section className="content" data-aos="fade-right" data-aos-once="true">
-                    <h1 className="title">Principais Sintomas </h1>
+                    <h1 className="title-two">Principais Sintomas </h1>
                     <p>
                         A dengue é uma doença viral transmitida por mosquitos que pode causar uma variedade de sintomas. Os sintomas comuns incluem febre alta, dores de cabeça intensas, dor atrás dos olhos, dores musculares e articulares e erupções cutâneas. Além disso, a dengue pode levar a sintomas mais graves, como dengue hemorrágica, caracterizada por sangramento, diminuição da pressão arterial e falha orgânica potencialmente fatal. É importante buscar atendimento médico imediato ao apresentar sintomas de dengue para um diagnóstico e tratamento adequados.
                     </p>
