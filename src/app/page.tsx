@@ -1,18 +1,15 @@
 import Footer from "@/components/footer/footer";
-import styles from "./home.module.css";
 import Image from "next/image";
+import { ImageAttr } from "@/utils/util";
+import styles from "./home.module.css";
 import "aos/dist/aos.css";
-
-const ImageAttr = {
-  fill: true,
-  objectFit: "cover"
-}
+import { animationLeft, animationRight } from "@/utils/util";
 
 export default function Home() {
   return (
     <>
       <main>
-        <section className={styles.contentPair} data-aos="fade-left" data-aos-once="true">
+        <section className={styles.contentPair} {...animationLeft}>
           <div className={styles.gallery}>
             <div className={styles.verticalGallery}>
               <div className={styles.galleryImage}>
@@ -47,7 +44,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className={`${styles.contentPair} content`} data-aos="fade-right" data-aos-once="true">
+        <section className={`${styles.contentPair} content`} {...animationRight}>
           <div className={styles.dengueAttacksContent}>
             <h2 className="title-two">Como a Dengue ataca o corpo?</h2>
             <p>
@@ -120,13 +117,13 @@ export default function Home() {
           </div>
         </section>
         <main>
-          <section className="content" data-aos="fade-left" data-aos-once="true">
+          <section className="content" {...animationLeft}>
             <h2 className="title-two">Sintomas</h2>
             <p>
               A Organização Mundial da Saúde (OMS) considera a dengue como a doença mais prevalente transmitida por mosquitos. A dengue hemorrágica é uma forma grave da doença, cujas infecções aumentaram mais de 30 vezes globalmente nos últimos 50 anos. O sistema imunológico desenvolve imunidade específica para cada tipo de dengue, permitindo múltiplas infecções, podendo uma pessoa contrair a doença até quatro vezes. Infecções subsequentes tendem a ser mais severas. A transmissão ocorre quando um mosquito pica uma pessoa infectada, permitindo que o vírus se multiplique em seu corpo por cerca de 12 dias antes de ser transmitido a outra pessoa saudável através da picada do mosquito.
             </p>
           </section>
-          <section className={`${styles.contentPair} content`} data-aos="fade-right" data-aos-once="true">
+          <section className={`${styles.contentPair} content`} {...animationRight}>
             <div className={styles.contentPairText}>
               <h2 className="title-two">Crianças e Idosos</h2>
               <p>
@@ -147,7 +144,7 @@ export default function Home() {
               />
             </div>
           </section>
-          <section className="content" data-aos="fade-left" data-aos-once="true">
+          <section className="content" {...animationLeft}>
             <h2 className="title-two">Casos de Dengue em Ascensão: Um Perigo Subestimado</h2>
             <p>
               Nos últimos anos, os casos de dengue têm aumentado de forma alarmante em várias regiões do mundo. O que muitos consideram uma doença banal, com sintomas semelhantes aos de uma gripe forte, pode, na verdade, se transformar em uma ameaça letal. A dengue, transmitida pelo mosquito Aedes aegypti, não deve ser subestimada.
@@ -165,7 +162,7 @@ export default function Home() {
               O risco é real e iminente. Cada ano, milhares de pessoas, muitas delas crianças, perdem suas vidas para essa doença que poderia ser prevenida com medidas simples de controle de mosquitos e eliminação de criadouros. O combate à dengue requer uma abordagem coletiva, desde ações governamentais até o empenho de cada indivíduo em manter seu ambiente livre de água parada, onde o mosquito se reproduz.
             </p>
           </section>
-          <section className="content" data-aos="fade-right" data-aos-once="true">
+          <section className="content" {...animationRight}>
             <h2 className="title-two">Proteja-se e Ajude a Reduzir os Casos</h2>
             <p>
               Compreender a gravidade da dengue é o primeiro passo para a prevenção. Elimine locais de reprodução de mosquitos, como recipientes que acumulam água parada, vasos de plantas e pneus velhos. Além disso, use repelente e vista roupas que cubram a maior parte do corpo, especialmente durante os períodos de maior atividade dos mosquitos. Mantenha telas em portas e janelas para evitar a entrada dos insetos em sua casa.
@@ -175,13 +172,13 @@ export default function Home() {
               Participar de campanhas de conscientização é fundamental para disseminar informações sobre os riscos da dengue e as medidas preventivas. Seja voluntário em iniciativas locais de controle de vetores, como mutirões de limpeza e monitoramento de focos de mosquitos. Ao tomar essas precauções e compartilhar conhecimento com sua comunidade, você contribui significativamente para reduzir os casos de dengue e proteger a saúde de todos. Juntos, podemos combater efetivamente essa doença e garantir um ambiente mais seguro para todos.uperação rápida e para prevenir possíveis complicações da doença.
             </p>
           </section>
-          <section className="content" data-aos="fade-left" data-aos-once="true">
+          <section className="content" {...animationLeft}>
             <h2 className="title-two">Juntos Somos Mais Fortes!</h2>
             <p>
               Engajar-se na prevenção da dengue é um ato de cuidado e responsabilidade com sua comunidade. Ao implementar medidas de prevenção em sua casa e incentivar outros a fazerem o mesmo, você contribui significativamente para a redução dos casos da doença. Seja parte ativa nesta causa, compartilhando conhecimento, participando de iniciativas locais ou organizando atividades comunitárias. Cada pessoa conta, e juntos podemos criar um impacto positivo duradouro na saúde de nossa comunidade. Vamos trabalhar juntos e proteger aqueles que amamos!
             </p>
           </section>
-          <section className={`${styles.contentPair} content`} data-aos="fade-right" data-aos-once="true">
+          <section className={`${styles.contentPair} content`} {...animationRight}>
             <div className={styles.contentPairImage}>
               <Image
                 src="/images/10.jpg"

@@ -1,17 +1,14 @@
 import Footer from "@/components/footer/footer";
 import Image from "next/image";
+import { ImageAttr } from "@/utils/util";
 import styles from "./creditos.module.css";
 import "aos/dist/aos.css";
-
-const ImageAttr = {
-    fill: true,
-    objectFit: "cover"
-}
+import { animationLeft, animationRight } from "@/utils/util";
 
 export default function Creditos() {
     return (
         <div className={styles.creditosWrapper}>
-            <section className={`${styles.creditsContent} ${styles.creditsContentOne}`} data-aos="fade-left" data-aos-once="true">
+            <section className={`${styles.creditsContent} ${styles.creditsContentOne}`} {...animationLeft}>
                 <div className={styles.creditsContentText}>
                     <h1 className="title-two">FÁBRICA DE SOFTWARE: DESENVOLVIMENTO DE WEBSITES, APLICATIVOS E JOGOS</h1>
                     <p>Professor Coordenador: Prof. Dr. Elvio Gilberto da Silva</p>
@@ -32,7 +29,7 @@ export default function Creditos() {
                     />
                 </div>
             </section>
-            <main data-aos="fade-right" data-aos-once="true">
+            <main {...animationRight}>
                 <section className="content">
                     <h1 className="title-two">Nossa Missão</h1>
                     <p>
@@ -40,7 +37,7 @@ export default function Creditos() {
                     </p>
                 </section>
             </main>
-            <section className={`${styles.creditsContent} ${styles.creditsContentTwo}`} data-aos="fade-left" data-aos-once="true">
+            <section className={`${styles.creditsContent} ${styles.creditsContentTwo}`} {...animationRight}>
                 <div className={styles.creditsContentImage}>
                     <Image
                         src="/images/7.png"
@@ -58,7 +55,7 @@ export default function Creditos() {
                     <p>Túlio Braga Alves </p>
                 </div>
             </section>
-            <section className="content" data-aos="fade-right" data-aos-once="true">
+            <section className="content" {...animationRight}>
                 <h1 className="title-two">Desenvolvimento</h1>
                 <div className={styles.creditsContentLogo}>
                     <Image
@@ -69,7 +66,7 @@ export default function Creditos() {
                     />
                 </div>
             </section>
-            <section className={`${styles.support} content`} data-aos="fade-left" data-aos-once="true">
+            <section className={`${styles.support} content`} {...animationLeft}>
                 <h1 className="title-two">Apoio</h1>
                 <p>José Augusto Magalhães – Coordenador de Extensão</p>
                 <div className={styles.creditsContentLogo}>

@@ -1,18 +1,15 @@
 import Footer from "@/components/footer/footer";
 import Image from "next/image";
+import { ImageAttr } from "@/utils/util";
 import styles from "./sintomas.module.css";
 import "aos/dist/aos.css";
-
-const ImageAttr = {
-    fill: true,
-    objectFit: "cover"
-}
+import { animationLeft, animationRight } from "@/utils/util";
 
 export default function Sintomas() {
     return (
         <>
             <main>
-                <section className={styles.gallery} data-aos="fade-right"  data-aos-once="true">
+                <section className={styles.gallery} {...animationLeft}>
                     <div className={styles.galleryImage}>
                         <Image
                             src="/images/1.jpg"
@@ -42,13 +39,13 @@ export default function Sintomas() {
                         />
                     </div> 
                 </section>
-                <section className="content" data-aos="fade-left" data-aos-once="true">
+                <section className="content" {...animationRight}>
                     <h1 className="title-two">Como a Dengue ataca o corpo?</h1>
                     <p>
                         A Organização Mundial da Saúde (OMS) considera a dengue como a doença mais prevalente transmitida por mosquitos. A dengue hemorrágica é uma forma grave da doença, cujas infecções aumentaram mais de 10 vezes globalmente nos últimos 50 anos. O sistema imunológico desenvolve imunidade específica para cada tipo de dengue, permitindo múltiplas infecções, podendo uma pessoa contrair a doença até quatro vezes. Infecções subsequentes tendem a ser mais severas. A transmissão ocorre quando um mosquito pica uma pessoa infectada, permitindo que o vírus se multiplique em seu corpo por cerca de 12 dias antes de ser transmitido a outra pessoa saudável através da picada do mosquito.
                     </p>
                 </section>
-                <section className={`${styles.contentPair} content`} data-aos="fade-right" data-aos-once="true">
+                <section className={`${styles.contentPair} content`} {...animationLeft}>
                     <div className={styles.contentPairText}>
                         <h1 className="title-two">Evolução da dengue</h1>
                         <p>
@@ -66,7 +63,7 @@ export default function Sintomas() {
                         />
                     </div>
                 </section>
-                <section className={`${styles.contentPair} content`} data-aos="fade-left" data-aos-once="true">
+                <section className={`${styles.contentPair} content`} {...animationRight}>
                     <div className={`${styles.contentPairImage} ${styles.contentPairTwoImage}`}>
                         <Image
                             src="/images/2.jpg"
@@ -85,13 +82,13 @@ export default function Sintomas() {
                         </p>
                     </div>
                 </section>
-                <section className="content" data-aos="fade-right" data-aos-once="true">
+                <section className="content" {...animationLeft}>
                     <h1 className="title-two">Principais Sintomas </h1>
                     <p>
                         A dengue é uma doença viral transmitida por mosquitos que pode causar uma variedade de sintomas. Os sintomas comuns incluem febre alta, dores de cabeça intensas, dor atrás dos olhos, dores musculares e articulares e erupções cutâneas. Além disso, a dengue pode levar a sintomas mais graves, como dengue hemorrágica, caracterizada por sangramento, diminuição da pressão arterial e falha orgânica potencialmente fatal. É importante buscar atendimento médico imediato ao apresentar sintomas de dengue para um diagnóstico e tratamento adequados.
                     </p>
                 </section>
-                <section className={`${styles.listSymptoms} content`} data-aos="fade-left" data-aos-once="true">
+                <section className={`${styles.listSymptoms} content`} {...animationRight}>
                     <ul className={styles.list}>
                         <li>Febre Alta</li>
                         <li>Dor nos olhos</li>
