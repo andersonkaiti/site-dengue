@@ -2,7 +2,6 @@ import Footer from "@/components/footer/footer";
 import Image from "next/image";
 import { ImageAttr } from "@/utils/util";
 import styles from "./creditos.module.css";
-import "aos/dist/aos.css";
 import { animationLeft, animationRight } from "@/utils/util";
 
 export default function Creditos() {
@@ -30,12 +29,10 @@ export default function Creditos() {
                 </div>
             </section>
             <main {...animationRight}>
-                <section className="content">
-                    <h1 className="title-two">Nossa Missão</h1>
-                    <p>
-                        O site informativo sobre a dengue, um projeto de extensão do curso de Ciências da Computação da Universidade UNISAGRADO, tem como missão promover a conscientização e a educação da população sobre a prevenção e o combate à dengue. Através de uma plataforma acessível e interativa, buscamos disseminar informações precisas e atualizadas sobre os sintomas, tratamento e medidas preventivas contra a dengue, além de incentivar a participação ativa da comunidade na luta contra essa doença.
-                    </p>
-                </section>
+                <h1 className="title-two">Nossa Missão</h1>
+                <p>
+                    O site informativo sobre a dengue, um projeto de extensão do curso de Ciências da Computação da Universidade UNISAGRADO, tem como missão promover a conscientização e a educação da população sobre a prevenção e o combate à dengue. Através de uma plataforma acessível e interativa, buscamos disseminar informações precisas e atualizadas sobre os sintomas, tratamento e medidas preventivas contra a dengue, além de incentivar a participação ativa da comunidade na luta contra essa doença.
+                </p>
             </main>
             <section className={`${styles.creditsContent} ${styles.creditsContentTwo}`} {...animationRight}>
                 <div className={styles.creditsContentImage}>
