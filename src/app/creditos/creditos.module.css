@@ -1,3 +1,7 @@
+.creditosWrapper {
+    overflow: hidden;
+}
+
 .creditsContent {
     display: flex;
     justify-content: space-between;
