@@ -10,13 +10,13 @@ const ImageAttr = {
 
 export default function Creditos() {
     return (
-        <>
+        <div className={styles.creditosWrapper}>
             <section className={`${styles.creditsContent} ${styles.creditsContentOne}`} data-aos="fade-left" data-aos-once="true">
                 <div className={styles.creditsContentText}>
                     <h1 className="title">FÁBRICA DE SOFTWARE: DESENVOLVIMENTO DE WEBSITES, APLICATIVOS E JOGOS</h1>
                     <p>Professor Coordenador: Prof. Dr. Elvio Gilberto da Silva</p>
                     <div className={styles.creditsContentLogo}>
-                        <Image 
+                        <Image
                             src="/logos/Ciencia_da_Computacao.jpg"
                             alt="Ciência da Computação"
                             fill={true}
@@ -82,6 +82,6 @@ export default function Creditos() {
                 </div>
             </section>
             <Footer />
-        </>
+        </div>
     );
 }
