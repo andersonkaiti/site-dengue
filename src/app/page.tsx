@@ -48,7 +48,7 @@ export default function Home() {
           <div className={styles.dengueAttacksContent}>
             <h2 className="title-two">Como a Dengue ataca o corpo?</h2>
             <p>
-              A dengue é uma doença viral transmitida principalmente pela picada do mosquito Aedes aegypti infectado. Uma vez introduzido no corpo humano, o vírus da dengue circula na corrente sanguínea e pode causar uma variedade de sintomas que variam de leves a graves. A infecção por dengue pode afetar pessoas de todas as idades e condições de saúde e requer atenção
+              A dengue é uma doença viral transmitida principalmente pela picada do mosquito Aedes aegypti infectado. Uma vez introduzido no corpo humano, o vírus da dengue circula na corrente sanguínea e pode causar uma variedade de sintomas que variam de leves a graves. A infecção por dengue pode afetar pessoas de todas as idades e condições de saúde e requer atenção.
             </p>
           </div>
           <div className={styles.dengueAttacksImage}>
