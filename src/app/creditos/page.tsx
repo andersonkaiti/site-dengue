@@ -52,7 +52,7 @@ export default function Creditos() {
                     <p>Túlio Braga Alves </p>
                 </div>
             </section>
-            <section className="content" {...animationRight}>
+            <section className="content" {...animationLeft}>
                 <h1 className="title-two">Desenvolvimento</h1>
                 <div className={styles.creditsContentLogo}>
                     <Image
@@ -63,7 +63,7 @@ export default function Creditos() {
                     />
                 </div>
             </section>
-            <section className={`${styles.support} content`} {...animationLeft}>
+            <section className={`${styles.support} content`} {...animationRight}>
                 <h1 className="title-two">Apoio</h1>
                 <p>José Augusto Magalhães – Coordenador de Extensão</p>
                 <div className={styles.creditsContentLogo}>
