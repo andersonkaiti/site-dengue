@@ -8,6 +8,10 @@
     height: 600px;
 }
 
+.creditsContent:nth-child(3) {
+    height: 750px;
+}
+
 .creditsContentText,
 .creditsContentImage {
     flex: 1;
