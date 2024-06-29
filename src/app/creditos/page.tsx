@@ -46,6 +46,7 @@ export default function Creditos() {
                     <h1 className="title-two">Integrantes da Equipe</h1>
                     <p>Anderson Kaiti</p>
                     <p>Guilherme Padilha de Marchi</p>
+                    <p>João Matheus Marques</p>
                     <p>Leandro Brosco Camanforte</p>
                     <p>Melck Silva de Oliveira Nascimento</p>
                     <p>Tainara Alves do Nascimento</p>
