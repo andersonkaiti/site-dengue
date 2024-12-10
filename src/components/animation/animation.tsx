@@ -3,11 +3,11 @@
 import Aos from "aos";
 import { useEffect } from "react";
 
-type AnimationType = {
+type AnimationProps = {
     children: React.ReactNode;
 }
 
-export default function Animation({ children }: AnimationType) {
+export default function Animation({ children }: AnimationProps) {
     useEffect(() => {
         Aos.init();
     }, []);
