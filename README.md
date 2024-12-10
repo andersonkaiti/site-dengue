@@ -1,6 +1,6 @@
 # Site de combate à dengue
 
-O site foi desenvolvido para disseminar informações cruciais sobre os malefícios da dengue. Nosso objetivo é educar pessoas de todas as idades sobre os perigos dessa doença, que afeta milhares de brasileiros anualmente. Além disso, a plataforma conecta os usuários a recursos de assistência médica, facilitando o acesso aos serviços de saúde essenciais para diagnóstico e tratamento.
+O propósito do site reside na disseminação de informações importantes em relação aos malefícios da dengue. A plataforma vida educar indivíduos de todas as faixas etárias sobre os perigos da dengue, doença que atinge milhares de brasileiros. Buscamos estabelecer uma conexão vital entre os usuários e recursos de assistência médica, facilitando o acesso aos serviços de saúde essenciais para o diagnóstico e possível tratamento da doença.
 
 ---
 
